@@ -1,0 +1,765 @@
+/*$Id: common.css 87555 2013-1-22 10:33:20Z lmsh $*/
+@charset "gb2312";
+
+#bg {
+	background: url(/images/bx/bg.jpg) no-repeat fixed center 0;
+}
+#wraper {
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+#toper {
+	height: 39px;
+	background-color: #191919;
+}
+#toper .loginArea {
+	height: 39px;
+	line-height: 39px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#toper .loginArea ul.clearFix {
+	float: right;
+	height: 16px;
+	line-height: 16px;
+	padding-top: 11px;
+}
+#toper .loginArea ul li {
+	float: left;
+	padding: 0 10px;
+	color: #c2c2c2;
+	border-right: 1px dotted #6d6d6d;
+}
+#toper .loginArea ul li.myShop {
+	position: relative;
+	z-index: 1;
+}
+#toper .loginArea ul li.myShop ul {
+	position: absolute;
+	width: 70px;
+	background-color: #191919;
+	border: 1px solid #6d6d6d;
+	left: 0;
+	top: 16px;
+	padding: 5px 10px;
+	line-height: 20px;
+}
+#toper .loginArea ul li.myShop ul li {
+	float: none;
+	padding: 0;
+	border: none;
+}
+#header .searchArea h1 {
+	width: 325px;
+	float: left;
+	padding: 15px 0 2px;
+}
+#header .searchArea h1 a {
+	display: block;
+	width: 292px;
+	height: 84px;
+	background: url(/images/bx/logo.png) no-repeat 0 0;
+}
+#header .searchArea .searchBox {
+	float: right;
+	padding-top: 65px;
+}
+#header .searchArea .searchBox #searchForm {
+	float: left;
+	width: 202px;
+	margin-right: 15px;
+	background: url(/images/bx/search.png) no-repeat 0 0;
+}
+#header .searchArea .searchBox #searchForm .txtInput {
+	width: 157px;
+	height: 27px;
+	float: left;
+	line-height: 27px;
+	padding-left: 5px;
+	color: #191919;
+}
+#header .searchArea .searchBox #searchForm .btnInput {
+	width: 18px;
+	height: 19px;
+	float: left;
+	cursor: pointer;
+	margin: 4px 0 0 10px;
+}
+#header .searchArea .searchBox ul {
+	float: left;
+}
+#header .searchArea .searchBox ul li {
+	float: left;
+	display: inline;
+	height: 27px;
+	line-height: 27px;
+	margin: 0 5px;
+}
+#header .searchArea .searchBox ul li a {
+	color: #fff;
+}
+
+/*nav*/
+.navArea {
+
+	/*background: url("/images/bx/snow.png") no-repeat scroll 0 0 transparent;
+	    margin-top: -19px;
+	    padding: 19px 0 10px;*/
+	padding: 2px 0 10px;
+}
+.navArea #navList {
+	float: left;
+	width: 716px;
+	margin-top: 3px;
+}
+
+/* cart box */
+.navArea .shopBox {
+	float: left;
+	position: relative;
+	width: 284px;
+	height: 52px;
+	font-size: 14px;
+	line-height: 52px;
+	margin-top: 2px;
+	background: url(/images/bx/btn.gif) no-repeat -140px -184px;
+}
+
+/* #enter_shopping_cart{
+	position:absolute;
+	width:130px;
+	left:60px;
+	color:#fff;
+	
+}
+#shopping_cart{
+	color:#ffdd00;
+}
+#settlement{
+	position:absolute;
+	right:30px;
+	color:#000;
+}
+#enter_shopping_cart:hover,#settlement:hover{
+	text-decoration:none;
+} */
+#navList li {
+	float: left;
+}
+#navList li a {
+	display: block;
+	height: 50px;
+	background-image: url(/images/bx/nav.gif);
+	background-repeat: no-repeat;
+}
+#navList li a.nav1 {
+	width: 102px;
+	background-position: 0 0;
+}
+#navList li a.nav2 {
+	width: 125px;
+	background-position: -103px  0;
+}
+#navList li a.nav3 {
+	width: 122px;
+	background-position: -228px 0;
+}
+#navList li a.nav4 {
+	width: 123px;
+	background-position: -350px 0;
+}
+#navList li a.nav5 {
+	width: 122px;
+	background-position: -473px 0;
+}
+#navList li a.nav6 {
+	width: 122px;
+	background-position: -595px 0;
+}
+#navList li a.nav1:hover, #navList li.active a.nav1 {
+	background-position: 0 -50px;
+}
+#navList li a.nav2:hover, #navList li.active a.nav2 {
+	background-position: -103px -50px;
+}
+#navList li a.nav3:hover, #navList li.active a.nav3 {
+	background-position: -228px -50px;
+}
+#navList li a.nav4:hover, #navList li.active a.nav4 {
+	background-position: -350px -50px;
+}
+#navList li a.nav5:hover, #navList li.active a.nav5 {
+	background-position: -473px -50px;
+}
+#navList li a.nav6:hover {
+
+	/*background-position:-600px -55px;*/
+	background-position: -595px -50px;
+}
+#brand {
+	height: 97px;
+	border: 1px solid #838383;
+	background-color: #464646;
+	line-height: 97px;
+	margin-top: 102px;
+	overflow: hidden;
+}
+#brand li {
+	float: left;
+	padding: 0 35px;
+}
+#brand li a {
+	display: table-cell;
+	height: 97px;
+	vertical-align: middle;
+	_font-size: 74px;
+}
+#brand li a img {
+	vertical-align: middle;
+}
+#brand li.brandT {
+	width: 97px;
+	height: 77px;
+	padding: 20px 0 0 0;
+	font-weight: bold;
+	background-color: #fff;
+	text-align: center;
+	line-height: normal;
+	font-size: 22px;
+	color: #000;
+}
+
+/*footer*/
+#footer {
+	background-color: #000;
+	padding: 23px 0 0 0;
+}
+#footer .helpInfo {
+	width: 1000px;
+	margin: 0 auto;
+	height: 238px;
+	padding-bottom: 17px;
+}
+#footer .helpInfo .fetureList li {
+	float: left;
+	width: 188px;
+	height: 40px;
+	margin-right: 6px;
+	text-align: center;
+	color: #0770ae;
+	font-size: 14px;
+	border: 1px solid #2e2e2e;
+	padding-top: 15px;
+}
+#footer .helpInfo .fetureList li.send {
+	margin-right: 0;
+}
+#footer .helpInfo .fetureList li.pay {
+	width: 410px;
+}
+#footer .helpInfo .fetureList li span {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+#footer .helpList {
+	margin-top: 12px;
+	height: 110px;
+	padding: 22px 0 35px;
+	border: 1px solid #2e2e2e;
+}
+#footer .helpList div {
+	float: left;
+	width: 130px;
+	height: 114px;
+	border-right: 1px dotted #616162;
+}
+#footer .helpList ul {
+	padding-top: 3px;
+	line-height: 22px;
+}
+#footer .helpList ul li a {
+	color: #999;
+}
+#footer .helpList div h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+#footer .helpList div.newer {
+	padding: 0 0 0 30px;
+}
+#footer .helpList div.payType {
+	padding: 0 0 0 42px;
+}
+#footer .helpList div.sendIntro {
+	padding: 0 0 0 54px;
+}
+#footer .helpList div.activityInfo {
+	padding: 0 0 0 66px;
+}
+#footer .helpList div.contact {
+	padding: 0 0 0 58px;
+	border: none;
+}
+#footer .copyInfo {
+	padding: 30px 0 78px 0;
+	background-color: #313131;
+}
+#footer .copyInfo .copyCon {
+	width: 455px;
+	*width: 480px;
+	margin: 0 auto;
+}
+#footer .copyInfo .copyCon .logoList {
+	float: left;
+}
+#footer .copyInfo .copyCon .logoList li {
+	float: left;
+	margin-right: 5px;
+}
+#footer .copyInfo .copyCon .logoList li.ne_logo {
+	padding-top: 16px;
+}
+#footer .copyInfo .copyCon div {
+	float: left;
+	padding-top: 16px;
+}
+#footer .copyInfo .copyCon div ul li {
+	float: left;
+}
+#footer .copyInfo .copyCon div ul li a {
+	padding: 0 3px;
+}
+#footer .copyInfo .copyCon div p {
+	padding-left: 3px;
+}
+
+/*banner*/
+#focus {
+	height: 277px;
+	overflow: hidden;
+	position: relative;
+}
+#focus ul {
+	height: 277px;
+	position: absolute;
+}
+#focus ul li {
+	background: none repeat scroll 0 0 #000000;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 1000px;
+	height: 277px;
+}
+#focus ul li div {
+	overflow: hidden;
+	position: absolute;
+}
+#focus .btn {
+	bottom: 10px;
+	height: 16px;
+	position: absolute;
+	left: 440px;
+	text-align: right;
+}
+#focus .btn span {
+	color: #666;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	width: 24px;
+	background: url(../../../images/bx/icon.png) no-repeat 0 -275px;
+}
+#focus .btn span.on {
+	color: #000;
+	background-position: -24px -275px;
+}
+
+/*progress*/
+.progress {
+	width: 1000px;
+	padding: 27px 0 19px;
+	border-top: 1px solid #000;
+	margin: 0 auto;
+	background: #e6e6e6
+}
+.progress ul {
+	width: 756px;
+	margin: 0 auto;
+	background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat 0 0;
+}
+.progress li {
+	float: left;
+	width: 189px;
+	font-size: 14px;
+	color: #474646;
+	text-align: center;
+}
+.progress li.step1 .active {
+	color: #000;
+	background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat -756px 0;
+}
+.progress li.step2 .active {
+	color: #000;
+	background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat -945px 0;
+}
+.progress li.step3 .active {
+	color: #000;
+	background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat -1134px 0;
+}
+.progress li.step4 .active {
+	color: #000;
+	background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat -1323px 0;
+}
+.progress li.step4 {
+	margin-right: 0
+}
+.progress li span {
+	display: block;
+	padding-top: 60px;
+}
+.progress li b {
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #555;
+}
+
+/*icon*/
+.icon {
+	display: inline-block;
+	background-image: url(/images/bx/icon.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.sayHi {
+	width: 17px;
+	height: 18px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background-position: -24px 0;
+}
+.clothesIcon, .sidebarIcon4, .sidebarIcon48 {
+	height: 15px;
+	background-position: 0 0;
+}
+.accIcon, .sidebarIcon9, .sidebarIcon54 {
+	height: 18px;
+	background-position: 0 -15px;
+}
+.lifeIcon, .sidebarIcon15, .sidebarIcon58 {
+	height: 20px;
+	background-position: 0 -32px;
+}
+.toyIcon, .sidebarIcon20, .sidebarIcon63 {
+	height: 22px;
+	background-position: 0 -52px;
+}
+.peripheralIcon, .sidebarIcon26, .sidebarIcon66 {
+	height: 18px;
+	background-position: 0 -74px;
+}
+.diyIcon, .sidebarIcon32, .sidebarIcon71 {
+	height: 17px;
+	background-position: -3px -149px;
+}
+.tcgIcon, .sidebarIcon75 {
+	height: 19px;
+	background-position: 0 -181px;
+}
+.ringIcon, .sidebarIcon76 {
+	height: 18px;
+	background-position: -3px -210px;
+}
+.goodsIcon {
+	width: 28px;
+	height: 26px;
+	background-position: -42px 0;
+}
+.serveIcon {
+	width: 29px;
+	height: 26px;
+	background-position: -42px -26px;
+}
+.payIcon {
+	width: 21px;
+	height: 22px;
+	background-position: -42px -52px;
+}
+.sendIcon {
+	width: 35px;
+	height: 26px;
+	background-position: -42px -74px;
+}
+.freeIcon {
+	width: 47px;
+	height: 15px;
+	line-height: 15px;
+	color: #000;
+	text-align: center;
+	background-position: -118px 0;
+}
+.selectedIcon {
+	width: 12px;
+	height: 13px;
+	background-position: -117px -15px;
+}
+.tipIcon {
+	width: 22px;
+	height: 21px;
+	background-position: -76px -264px;
+}
+.timeIcon {
+	width: 44px;
+	height: 40px;
+	background-position: -74px -26px;
+}
+.paytypeIcon {
+	background-position: -77px 0;
+	height: 26px;
+	width: 40px;
+}
+.carIcon {
+	background-position: -77px -66px;
+	height: 40px;
+	width: 41px;
+}
+.coffeeIcon {
+	background-position: -77px -106px;
+	height: 45px;
+	width: 42px;
+}
+.findIcon {
+	width: 38px;
+	height: 39px;
+	background-position: -77px -151px;
+}
+.addCart {
+	width: 40px;
+	height: 34px;
+	background-position: -77px -190px;
+}
+.subBill {
+	width: 40px;
+	height: 40px;
+	background-position: -77px -224px;
+}
+.doubtIcon {
+	width: 22px;
+	height: 21px;
+	background-position: -98px -264px;
+}
+.cartIcon {
+	width: 28px;
+	height: 25px;
+	background-position: -42px -119px;
+}
+.iconArrowL {
+	width: 8px;
+	height: 17px;
+	background-position: -165px -17px;
+}
+.iconArrowR {
+	width: 8px;
+	height: 17px;
+	background-position: -165px 0;
+}
+.starIcon {
+	width: 21px;
+	height: 21px;
+	background-position: -118px -51px;
+}
+
+/*pagebar*/
+.pagebar {
+	padding: 10px 0;
+	text-align: right;
+}
+.pagebar a {
+	cursor: pointer;
+}
+.pagebar .page_index {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	background: #00adfd;
+	margin: 0 1px;
+}
+.pagebar a.page_index {
+	color: #000;
+	background-color: #464646;
+}
+
+/* mian yun*/
+.yellowIcon {
+	background: url("/images/bx/icon.png") no-repeat scroll -118px 0 transparent;
+	color: #000000;
+	display: inline-block;
+	height: 15px;
+	line-height: 15px;
+	margin-top: 5px;
+	text-align: center;
+	width: 47px
+}
+#cover {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 301;
+}
+.dTc {
+	display: none;
+	position: absolute;
+	z-index: 10000;
+}
+
+/*search*/
+.search {
+	font-size: 14px;
+	margin-bottom: -16px;
+}
+#popBox {
+	display: none;
+	position: absolute;
+	z-index: 999999;
+}
+#popBox .closeBtn {
+	background: url("/images/bx/px1.gif") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	text-indent: -999em;
+	top: 0;
+	width: 33px;
+}
+#boxModel {
+	background-color: #000000;
+	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 999998;
+}
+
+/* share */
+.comm_share {
+	position: fixed;
+	z-index: 9999;
+	top: 50%;
+	margin-top: -120px;
+	right: 0px;
+	width: 50px;
+	background: #000;
+	background: rgba(0, 0, 0, .5);
+	padding: 10px 0;
+}
+.comm_share li {
+	height: 45px;
+	width: 50px;
+	vertical-align: top;
+}
+.comm_share li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: url(http://heroes.nos.netease.com/1/images/common/share.png);
+	background-repeat: no-repeat;
+}
+.comm_share li a.jiathis_button_tsina {
+	background-position: -121px -120px;
+}
+.comm_share li a.jiathis_button_tqq {
+	background-position: -173px -120px;
+}
+.comm_share li a.jiathis_button_weixin {
+	background-position: -17px -120px;
+}
+.comm_share li a.jiathis_button_yixin {
+	background-position: -70px -120px;
+}
+.comm_share li a.jiathis_button_tieba {
+	background-position: -321px -120px;
+}
+.comm_share li a.jiathis_button_tsina:hover {
+	background-position: -121px -179px;
+}
+.comm_share li a.jiathis_button_tqq:hover {
+	background-position: -173px -179px;
+}
+.comm_share li a.jiathis_button_weixin:hover {
+	background-position: -17px -179px;
+}
+.comm_share li a.jiathis_button_yixin:hover {
+	background-position: -70px -179px;
+}
+.comm_share li a.jiathis_button_tieba:hover {
+	background-position: -321px -179px;
+}
+.service-welcome {
+	padding: 0;
+}
+.m-header-wrap {
+	height: 60px;
+	background: #15191e;
+	box-shadow: 0px 4px 0px #15191e;
+}
+.m-header-wrap .m-header {
+	height: 60px;
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.m-header-wrap .m-header .logo {
+	height: 60px;
+	width: 160px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: url(http://blz.nos.netease.com/1/bmall/images/common_model/logo.png) 0 0 no-repeat;
+}
+.m-header-wrap .m-header .header_en {
+	font-size: 18px;
+	line-height: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	top: 15px;
+	width: 220px;
+	color: #fff;
+}
+.m-header-wrap .m-header .header_en a {
+	color: #fff;
+}
+#m-wrap {
+	width: 100%;
+	overflow: hidden;
+}
+#m-wrap .m-main {
+	width: 1920px;
+	position: relative;
+	min-height: 500px;
+	left: 50%;
+	margin-left: -960px;
+	text-align:center;
+}
+.m-main-cont {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	font-size:0;
+}

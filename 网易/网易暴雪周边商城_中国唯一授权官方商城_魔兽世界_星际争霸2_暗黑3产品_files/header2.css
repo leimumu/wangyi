@@ -1,0 +1,179 @@
+/*$Id: header2.css 87012 2013-1-22 10:33:20Z lmsh $*/
+@charset "gb2312";
+
+
+/*----------tools---------------*/
+:focus{ outline: none;}
+.font_red14 { font-size: 14px; color:red !important;}
+.case_title { background:url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x; font-size: 14px;  line-height: 35px; height: 35px; color: #000; padding-left: 30px;}
+.case_title a {color: #333333; float: right; margin-right: 20px; }
+.case_title a:hover { text-decoration: none;}
+.icon_y { background-image:url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon_y.png); _background-image:url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon_y.gif); background-repeat: no-repeat;}
+.iconx { background-image:url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png); _background-image:url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon-ie6.gif);background-repeat: no-repeat;}
+/*----------header ------------*/
+
+
+
+.bg_header { background: #0b3654; height: 140px; width: 100%;}
+.header { height: 90px; margin: 0 auto; position: relative; z-index: 99;  border: 0px solid red;}
+.header .logo { display: block; height: 65px; width: 300px; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/logo.jpg) 0 0 no-repeat; position: absolute; top: 20px;}
+.header .up_nav { height: 34px; z-index: 9995; position: relative; line-height: 34px; color: #b8b8b8; float: right;}
+.header .up_nav a { color: #b8b8b8;}
+.header .up_nav span {font-size: 12px; line-height: 34px; color: #fff;}
+.header .up_nav .mark_hi { font-size: 8px; display: inline-block; width: 18px; vertical-align: top; text-align: center; background-position: -49px 10px;}
+.header .up_nav .myshop_show {  position: relative; z-index: 9995; display: inline-block; *display: inline; *zoom:1;}
+.header .up_nav .myshop_show a {padding-left: 6px;}
+.header .up_nav .myshop_show a.myshop_title:hover { cursor:default; text-decoration: none;}
+.header .up_nav .myshop_show ul { position: absolute; width:85px; padding: 4px 0px 6px 0px; background: #333; z-index: 9995; top: 30px; left: 0; font-size: 12px; line-height: 20px;}
+/*-----------购物车------------------*/
+.header .shopping_cart {position: relative; z-index: 999; width: 260px; height: 30px; line-height: 30px; font-size: 12px; color: #000;  background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/shopping_cart.jpg) 0 0 no-repeat; position: absolute; right: 0; top: 48px;}
+.header .hover { background-position: 0px -30px;}
+.header .shopping_cart .my_order { color: #000; font-size: 12px; line-height: 30px; height: 30px; float: left; width: 72px; padding-left: 33px; vertical-align: middle;}
+.header .shopping_cart .my_cart { position: relative; z-index: 999; float: left;  vertical-align: middle; line-height: 30px; height: 30px; width: 155px; }
+.header .shopping_cart .my_cart a.my_cart_enter {color: #000; font-size: 12px; height: 30px; display: block; padding-left: 58px; }
+.header .shopping_cart a:hover { text-decoration: none;}
+.header .shopping_cart .mark_count { position: absolute;  top: -15px; left: 130px; font-size: 12px; color: #fff; line-height: 16px; text-align: center;  min-width: 20px; _width:20px; height: 20px; background-position: -49px -300px;}
+.mini_cart_box { z-index: 999; position: absolute; right: 0px; top: 30px;}
+.mini_cart { width: 320px; padding:0px 12px;  max-height: 340px;  *font-size: 0px;  overflow-x: hidden; overflow-y: auto; background: #fff;}
+.mini_cart li { margin: 8px 0px; width: 316px; vertical-align: top; height: 55px; font-size: 12px; line-height: 18px;}
+.mini_cart li div {float: left; font-size: 12px; line-height: 18px;}
+.mini_cart li:hover { background: #eff;} 
+.mini_cart li .mini_cart_img { width: 55px; height: 55px;}
+.mini_cart li .mini_cart_img img { width: 55px; height: 55px;}
+.mini_cart li .mini_cart_name { padding: 0px 8px; width: 161px;}
+.mini_cart li .mini_cart_name a {display: block; width: 161px; word-break:normal; overflow:hidden; height: 37px; color: #333; font-size: 12px; line-height: 18px;}
+.mini_cart li .mini_cart_name a:hover {color: #777; text-decoration: none;}
+.mini_cart li .mini_cart_name span {color: #777;}
+.mini_cart li .mini_cart_cost { height: 37px; width: 82px; text-align: right;}
+.mini_cart li .mini_cart_cost span.mini_cart_unit { color: #ee7207;}
+.mini_cart li .mini_cart_ctrl { height: 18px; width: 82px; text-align: right;}
+.mini_cart li .mini_cart_ctrl a { color: #00ADFD}
+.mini_cart li .mini_cart_ctrl a:hover { text-decoration: none; color: #ee7207;}
+.mini_cart_box .mini_cart_ef { width: 344px; background: #b8b8b8; height: 70px; }
+.mini_cart_box .mini_cart_ef #mini_cart_hide{ padding-right: 10px; color:#D02513; display: none;}
+.mini_cart_ef p {text-align: right; height: 30px; padding-right: 20px; line-height: 30px; font-size: 12px;}
+.mini_cart_ef p span { color: #d02513;}
+.mini_cart_ef a { margin-left: 210px; height: 30px; width: 120px; text-align: center; color: #fff; line-height: 30px; display: block; background: url(http://blz.nos.netease.com/1/bmall/images/new-edition/btn_mini_cart.jpg) 0 0 no-repeat;}
+.mini_cart_ef a:hover { text-decoration: none;}
+
+.header .search { height: 30px; position: absolute;  background: #b8b8b8; top: 48px; left: 50%; margin-left: -160px;}
+.header .search .btn_search { float: left; width: 80px; cursor: pointer; font-size: 14px; line-height: 30px; text-align: center; height: 30px; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/btn_search.jpg) 0 0 no-repeat;}
+.header .search input { height: 24px; float: left; border:0 none; padding:3px 6px; line-height: 24px; color: #555; font-size: 14px; width: 230px;}
+
+.nav_active { background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_nav_hover.jpg) repeat-x;}
+.bg_nav { height: 50px; width: 100%; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_nav.jpg) 0 repeat-x;}
+.bg_nav .nav { height: 50px; margin: 0 auto; font-size: 14px; color: #fff;  position:relative; z-index: 89;}
+.bg_nav .nav .nav_ul { width: 100%; height: 50px; line-height: 50px;}
+.bg_nav .nav .nav_ul li { height: 50px; width: 110px; text-align: center; float: left;}
+.bg_nav .nav .nav_ul li a { width: 100%; display: block; height: 100%; color: #fff;}
+.bg_nav .nav .nav_ul li a:hover { text-decoration: none;}
+.bg_nav .nav .nav_ul .nav_side { width: 280px; padding-left: 20px; border-right: 1px solid #00446B; height: 50px; text-align: left; font-size: 14px;}
+.nav_side_center { background:url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_nav_side.jpg) 0px -100px no-repeat;}
+.nav_side_down { background:url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_nav_side.jpg) 0px 0px no-repeat;}
+.nav_side_up { background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_nav_side.jpg) 0px -50px no-repeat;}
+.bg_nav .nav .nav_ul .nav_help { float: right; height: 50px; width: 100px; text-align: right;}
+.bg_nav .nav .nav_ul .nav_help .icon_help {background-position: -26px -81px;}
+.bg_nav .nav .nav_ul .mark_music { background-position: -36px -31px;}
+.bg_nav .nav .nav_ul .mark_hot_light { background-position: 7px -563px;}
+.bg_nav .nav .nav_ul .mark_building { background-position: -83px 1px;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar {background: #e6e6e6; width: 300px; border-bottom: 1px #000 solid; border-top: 1px solid #000; z-index: 9995; position: absolute; top: 50px; left: 0;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl { position: relative;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl:hover dt { background: #fff;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl:hover .header_aside_menu { display: block;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dt {  padding:0px 0px 3px 35px; height: 40px; width: 265px; line-height: 40px; }
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dt:hover { background: #fff;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dt span {  width: 28px; height: 20px; float: left; display: block; margin: 10px 5px 10px 0;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dt a { font-size: 14px; font-weight: 700; color: #000;  float: left; height: auto; width: auto; line-height: 40px;}
+/*.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dd { margin-bottom: 4px; clear: both;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dd ul { width: 238px; padding-left: 22px;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dd ul li { float: left; height: auto; width: auto; text-align: left; float: left; }
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dd ul li a { color: #515050;  font-size: 12px; display: block; width: auto; height: 20px; line-height: 20px; float: left; padding: 0 6px;  white-space: nowrap; _height:14px; _line-height: 18px;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl dd ul li a:hover { text-decoration: underline;}*/
+
+
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu { display: none; left:300px; position: absolute; top: 0; z-index: 999; background: #fff; clear: both;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu ul { width: 300px; padding:2px 10px 13px 16px;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu ul li { height: auto; width: auto; margin-top: 10px; text-align: left; float: left; }
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu ul li.header_aside_line {
+	width: 1px; background: #b8b8b8; height: 18px;
+}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu ul li a { color: #515050;  font-size: 12px; display: block; width: auto; height: 18px; line-height: 18px; float: left; padding: 0 7px;  white-space: nowrap; _height:14px; _line-height: 18px;}
+.bg_nav .nav .nav_ul li.nav_side .header_siderbar dl .header_aside_menu ul li a:hover { text-decoration: underline;}
+
+
+
+
+.aside_icon1 { background-position: 0px 2px;}
+.aside_icon2 { background-position: 0px -48px;}
+.aside_icon3 { background-position: 0px -98px;}
+.aside_icon4 { background-position: 0px -148px;}
+.aside_icon5 { background-position: 0px -198px;}
+.aside_icon6 { background-position: 0px -248px;}
+.aside_icon7 { background-position: 0px -298px;}
+
+/*#gotoTop { height: 54px; width: 53px; cursor: pointer; display: none; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/gotoTop.png) 0 0 no-repeat; _background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/gotoTop.gif) 0 0 no-repeat; position: fixed; z-index: 9995; bottom: 100px; right: 10px; _position: absolute; _top:expression(documentElement.scrollTop+documentElement.clientHeight*3/4+"px"); _right:10px;}*/
+#gotoTop { height: 66px; width: 100px; cursor: pointer; display: none; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/gotoTop2.png) 0 0 no-repeat;  position: fixed; z-index: 9995; top: 47%; margin-top: 65px; right: 8px; _position: absolute; _top:expression(documentElement.scrollTop+documentElement.clientHeight*3/4+"px"); _right:10px;}
+/*----------END: header ------------*/
+
+/*---------footer start--------*/
+.footer {margin-top: 80px;}
+.footer .brand { margin: 0 auto; background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/brand.jpg) 0 0 no-repeat; height: 86px; overflow: hidden;}
+.footer .brand li {float: left;}
+.footer .brand li a {display: block; height: 86px; text-indent: -9995px; overflow: hidden; border: 0px red solid;}
+.footer .brand li.pinpai { display: block; font-weight: bold; width: 90px; height: 56px; padding-top: 10px; font-size: 18px; line-height: 30px; text-align: center; color: #000;}
+.footer .brand li.netease { width: 160px;}
+.footer .brand li.jinx { width: 160px;}
+.footer .brand li.mega { width: 120px;}
+.footer .brand li.razer { width: 160px;}
+.footer .brand li.steel { width: 130px;}
+.footer .brand li.jingdong { width: 180px;}
+.footer .brand li.tmall { width: 200px;}
+.footer .bg_help { background: #000;}
+.footer .bg_help .help_list { margin: 0 auto; width: 1000px; padding-top: 20px; padding-bottom: 30px;}
+.footer .bg_help .help_list div { float: left; width: 160px; padding-left: 40px; }
+.footer .bg_help .help_list div h3 { font-size: 14px; line-height: 40px;}
+.footer .bg_help .help_list div ul { font-size: 12px; line-height: 22px; color: #999;}
+.footer .bg_help .help_list div ul li a{ color: #999;}
+.footer .fetureList { height: 60px; margin: 0 auto; width: 1000px;}
+.footer .fetureList li {font-size: 14px; line-height: 60px; float: left; width: 200px; text-align: center;}
+.footer .fetureList li span { height: 28px; width: 32px; display: inline-block; margin-top: 6px; vertical-align: middle;}
+.footer .fetureList li.pay { width: 400px; }
+.footer .fetureList li span.goodsIcon{ background-position:0 -350px;}
+.footer .fetureList li span.serveIcon{ background-position:-50px -350px;}
+.footer .fetureList li span.payIcon{ background-position:-100px -350px;}
+.footer .fetureList li span.sendIcon{ background-position: -150px -350px; margin-right: 10px;}
+
+.footer .copyInfo { height: 140px; padding-top: 20px;}
+.footer .copyInfo .copyCon { text-align: left; width: 600px; margin: 0 auto;}
+.footer .copyInfo .copyCon .logoList { float: left;}
+.footer .copyInfo .copyCon .logoList li { float: left;}
+.footer .copyInfo .copyCon .logoList li.ne_logo { padding: 16px 0px 0px 10px;}
+.footer .copyInfo .copyCon div { float: left;}
+.footer .copyInfo .copyCon div ul { padding-top: 0px; padding-left: 20px; color: #aaa;  text-align: left; font-size: 0;}
+.footer .copyInfo .copyCon div ul li {  white-space: nowrap; display: inline-block;vertical-align: top; font-size: 12px;}
+.footer .copyInfo .copyCon div ul li a {color: #aaa;}
+
+
+/* share */
+.evaSubmit { padding: 10px 0; }
+.evaSubmit .sharebtn { width: 285px; position: absolute; top: -6px; left: 10px; }
+.evaSubmit .sharebtn a { background: url("/images/bx/share-icons.png?v=1") no-repeat scroll 0 0 transparent; display: inline-block; height: 22px; margin-right: 2px; width: 22px; }
+.evaSubmit .sharebtn a.jiathis_button_t163 { background-position: 0 2px; }
+.evaSubmit .sharebtn a.jiathis_button_qzone { background-position: 0 -172px; }
+.evaSubmit .sharebtn a.jiathis_button_tqq { background-position: 0 -52px; }
+.evaSubmit .sharebtn a.jiathis_button_tsina { background-position: 0 -295px; }
+.evaSubmit .sharebtn a.jiathis_button_kaixin001 { background-position: 0 -113px; }
+.evaSubmit .sharebtn a.jiathis_button_renren { background-position: 0 -231px; }
+
+
+/* 推广 */
+.p_pop_new { width: 1000px; margin:60px auto 0 auto; background: #e6e6e6;}
+.p_pop_new ul {width: 1000px; padding: 20px 0;}
+.p_pop_new ul li { width: 200px; float: left;}
+.p_pop_new ul li a { width: 160px; display: block; padding:0px 20px;}
+.p_pop_new ul li a:hover{ text-decoration: none;}
+.p_pop_new ul li a img { width: 160px; height: 160px; vertical-align: top;}
+.p_pop_new ul li a span { font-size: 12px; line-height: 18px; display:block; width: 160px;}
+.p_pop_new ul li a span.p_name {color: #666;}
+.p_pop_new ul li a:hover span.p_name {color: #000;}
+.p_pop_new ul li a span.p_cost {color: #000;}

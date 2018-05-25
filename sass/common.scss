@@ -1,0 +1,21 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, 
+input, textarea, p, blockquote, th, td ,header,nav,#banner,menu,section,footer{
+    margin: 0;
+    padding: 0;
+}
+#hearder_wrap{
+    background: #0b3654;
+}
+header {
+    background: #0b3654;
+    height: 140px;
+    width: 100%;
+}
+header .logo {
+    display: block;
+    height: 65px;
+    width: 300px;
+    background: url("http://nos.netease.com/blz/1/bmall/images/new-edition/logo.jpg") 0 0 no-repeat;
+    position: absolute;
+    top: 20px;
+}

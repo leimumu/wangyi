@@ -1,0 +1,107 @@
+/*$Id: index2.css 87112 2013-2-10 10:33:20Z lmsh $*/
+@charset "gb2312";
+
+/*------tool & public-------*/
+.dn {display: none;}
+.tab_active { background: #353a40;}
+.black { color: #000;}
+
+
+
+.content { margin: 0 auto 80px auto; }
+/*--------aside----------*/
+.aside { width: 300px; float: left;}
+.aside_top { width: 300px; padding-top: 303px;}
+.aside_top .game_type {width: 266px; padding-left: 34px; height: 359px; background: #b8b8b8; }
+.aside_top .game_type li { height: 46px; width: 231px; float: left; vertical-align: top; margin-bottom: 2px; }
+.aside_top .game_type li a{ display: block; width: 231px; height: 46px;}
+.aside_top .game_type li.game_type_title { font-size: 12px; color: #000; height: 40px; line-height: 40px;}
+.aside_top .game_type li.wow { background-position: -6px -4px;}
+.aside_top .game_type li.hs { background-position: -6px -52px;}
+.aside_top .game_type li.sc2 { background-position: -6px -100px;}
+.aside_top .game_type li.d3 { background-position: -6px -148px;}
+.aside_top .game_type li.hos { background-position: -6px -197px;}
+.aside_top .game_type li.ow { background-position: -6px -247px;}
+.aside_top .game_type li.wow a:hover { background-position: -265px -4px;}
+.aside_top .game_type li.hs a:hover { background-position: -265px -52px;}
+.aside_top .game_type li.sc2 a:hover { background-position: -265px -100px;}
+.aside_top .game_type li.d3 a:hover { background-position: -265px -148px;}
+.aside_top .game_type li.hos a:hover { background-position: -265px -197px;}
+.aside_top .game_type li.ow a:hover { background-position: -265px -247px;}
+.bg_game_type,.aside_top .game_type li a:hover {background-image: url(http://blz.nos.netease.com/1/bmall/images/new-edition/game_type4.jpg); background-repeat: no-repeat;}
+
+          /*--------hot_list----------*/
+.hot_list { width: 300px; margin-top: 6px;}
+.hot_list ul { width: 276px; background: #e6e6e6; padding: 25px 0 16px 24px; }
+.hot_list ul li { height: 110px; padding-bottom:26px; position: relative;}
+.hot_list ul li a { color: #444; display: block; }
+.hot_list ul li a img { height: 110px; width: 110px;  float: left; *vertical-align: bottom;}
+.hot_list ul li a:hover .hot_name{ text-decoration: underline;}
+.hot_list ul li a .hot_name { cursor: pointer; font-size: 12px; line-height: 20px; float: left; padding-left: 8px; width: 140px; }
+.hot_list ul li a .top_1 { height: 40px; width: 40px; position: absolute; top: 0; left: 0;  background-position: 0px -450px;}
+.hot_list ul li a .top_2 { height: 40px; width: 40px; position: absolute; top: 0; left: 0;  background-position: -50px -450px;}
+.hot_list ul li a .top_3 { height: 40px; width: 40px; position: absolute; top: 0; left: 0;  background-position: -100px -450px;}
+span.goods_cost {color: #000; height: 26px;}
+span.goods_cost i { padding:0; line-height: 19px;  font-style:normal; padding-left: 4px; display: inline-block; width: 50px;  background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png) 0 -530px; }
+span.goods_cost del { padding-left: 10px;}
+
+          /*--------activity_list----------*/
+.activity_list { width: 300px;}
+.activity_list .big_activity { background: #e6e6e6; padding: 14px 0 17px 0;}
+.activity_list .big_activity li { width: 240px; height: 200px; padding: 12px 30px; *vertical-align: top;}
+.activity_list .big_activity li a {display: block;}
+.activity_list .big_activity li a img { width: 240px; height: 200px; *vertical-align: bottom;}
+.activity_list .small_activity { background: #e6e6e6; padding-top: 28px; padding-bottom: 13px; border-top: 1px solid #15191e;}
+.activity_list .small_activity li { width: 240px; height: 100px; padding: 0 30px 18px 30px; *vertical-align: top;}
+.activity_list .small_activity li a {display: block;}
+.activity_list .small_activity li a img { width: 240px; height: 100px; *vertical-align: bottom;}
+/*--------main----------*/
+.main { overflow: hidden; padding-left: 1px; _width: expression(document.body.offsetWidth>1210?'896px':'671px');}
+			/*--------focus_pic----------*/
+.main .box_focus_pic { height: 301px; border-top: 1px solid #000; background: #ccc; position:relative; overflow: hidden;}
+.focus {top:0; left:50%; margin-left:-450px; width:900px; height:301px; position:relative; overflow:hidden;}
+.focus .focus_pic {  height:301px; position:absolute; left:0; top:0;}
+.focus .focus_pic li { width:900px; float:left; height:301px;}
+.focus .focus_pic li img { width:900px; height:301px;}
+.box_focus_pic .focus_btn { position:absolute; right:50px; bottom:20px;}
+.box_focus_pic .focus_btn li { width:18px; height:18px; margin-right:5px; float:left; cursor:pointer; background:#b8b8b8; border-radius:3px;}
+			/*--------smallEye----------*/
+.main .box_smallEye { height: 98px; margin: 1px 0; width: 900px;}
+.main .box_smallEye li { background: #353a40; margin-right: 1px; float: left; padding: 12px; width: 200px; height: 74px;}
+.main .box_smallEye li a { width: 200px; height: 74px;}
+.main .box_smallEye li a img{ width: 200px; height: 74px; border: 0;}
+			/*--------tab----------*/
+.main .box_tab { height: 260px; width: 100%; } 
+.main .box_tab .tab_name { height: 36px; font-size: 14px; line-height: 36px;}
+.main .box_tab .tab_name li { height: 36px; width:33.21%; text-align: center; cursor: pointer;  background: #20252a;}
+.main .box_tab .tab_name li span { display: inline-block; height: 16px; width: 16px;  margin-right: 8px; vertical-align: middle; _margin-top:8px;}
+.main .box_tab .tab_name li span.icon_hot { background-position: -50px -150px;}
+.main .box_tab .tab_name li span.icon_new { background-position: -50px -200px;}
+.main .box_tab .tab_name li span.icon_sale { background-position: -50px -250px;}
+.main .box_tab .tab_detail { overflow: hidden;  height: 224px; position: relative;}
+.main .box_tab .tab_detail .tab_show { width: 900px;  height: 224px; position: absolute; top: 0; left: 0; background: #353a40;}
+.tab_show li { padding: 12px 0px 0px 55px; float: left; }
+.tab_show li a {display: block; position: relative;}
+.tab_show li a img { width: 155px; height: 155px; margin-bottom: 0px;}
+.tab_show li a span { cursor: pointer; font-size: 12px; color: #888; height: 32px; overflow: hidden;  line-height: 16px; display: block; width: 160px;}
+.tab_show li a span.tab_cost { color: #fff;}
+.tab_show li a div { height: 40px; width: 40px; position: absolute; top: 0; left: 0;}
+.tab_show li a div.mark_hot {background-position: 0px -400px}
+.tab_show li a div.mark_new { background-position: -50px -400px}
+.tab_show li a div.mark_sale { background-position: -100px -400px}
+.tab_show li a span.goods_cost { height: 26px;}
+.tab_show li a span.goods_cost i { padding:0; color:#000; line-height: 19px; font-style:normal; padding-left: 4px; display: inline-block; width: 50px;  background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png) 0 -530px; }
+.tab_show li a span.goods_cost del { padding-left: 10px;}
+			/*--------main_goods----------*/
+.main_goods { margin-top: 6px; overflow: hidden;}
+.goods_list {background: #e6e6e6;  padding-top:22px; width: 900px; padding-bottom: 7px;}
+.goods_list li { padding: 0px 0px 6px 52px; float: left; }
+.goods_list li a {display: block;}
+.goods_list li a:hover { text-decoration: none;}
+.goods_list li a:hover span { text-decoration: underline;}
+.goods_list li a img { width: 155px; height: 155px; vertical-align: bottom;}
+.goods_list li a span { font-size: 12px; cursor: pointer; color: #888; line-height: 16px;  overflow: hidden; display: block; width: 160px;}
+.goods_list li a span.goods_name {height: 32px;  padding-top: 6px; margin-top: 0px;}
+.goods_list li a span.goods_cost {color: #000; height: 26px;}
+.goods_list li a span.goods_cost i { padding:0; line-height: 19px;  font-style:normal; padding-left: 4px; display: inline-block; width: 50px;  background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png) 0 -530px; }
+.goods_list li a span.goods_cost del { padding-left: 10px;}

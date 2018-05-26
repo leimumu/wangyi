@@ -1,2 +1,125 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend,
+input, textarea, p, blockquote, th, td, header, nav, menu, section, footer {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
 body {
-  font-size: 14px; }
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none;
+  border: 0; }
+
+header, nav, #banner, menu, section, footer {
+  width: 1200px;
+  margin: 0 auto; }
+
+#hearder_wrap {
+  background: #0b3654;
+  width: 100%; }
+  #hearder_wrap header {
+    height: 90px;
+    min-width: 975px;
+    position: relative;
+    z-index: 99;
+    border: 0px solid red; }
+    #hearder_wrap header .logo {
+      display: block;
+      height: 65px;
+      width: 300px;
+      background: url("http://nos.netease.com/blz/1/bmall/images/new-edition/logo.jpg") 0 0 no-repeat;
+      position: absolute;
+      top: 20px; }
+    #hearder_wrap header .her_right {
+      width: 760px;
+      float: right;
+      position: relative; }
+      #hearder_wrap header .her_right .up_nav {
+        height: 34px;
+        z-index: 9995;
+        position: relative;
+        line-height: 34px;
+        color: #b8b8b8;
+        padding-left: 324px; }
+        #hearder_wrap header .her_right .up_nav li {
+          font-size: 12px;
+          float: left; }
+          #hearder_wrap header .her_right .up_nav li a {
+            padding: 0 10px;
+            color: #B8B8B8; }
+      #hearder_wrap header .her_right .search {
+        font-size: 12px;
+        position: absolute;
+        top: 48px;
+        left: 0; }
+        #hearder_wrap header .her_right .search #input_search {
+          height: 30px;
+          background: #b8b8b8; }
+        #hearder_wrap header .her_right .search #input_submit {
+          height: 30px;
+          background: #b8b8b8; }
+
+#nav_wrap {
+  background: #029CD3;
+  width: 100%; }
+  #nav_wrap nav {
+    height: 50px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    z-index: 89; }
+
+#banner_wrap {
+  background: #15191e;
+  width: 100%; }
+  #banner_wrap #banner {
+    height: 301px; }
+
+#menu_wrap {
+  background: #15191e;
+  width: 100%; }
+  #menu_wrap menu {
+    height: 358px;
+    background: #b8b8b8; }
+
+#section_wrap {
+  background: #15191e;
+  width: 100%; }
+  #section_wrap section {
+    background: #E6E6E6; }
+
+#links_wrap {
+  background: #15191e;
+  width: 100%; }
+  #links_wrap #links {
+    height: 85px; }
+
+#help_wrap {
+  background: #000000;
+  width: 100%; }
+  #help_wrap #help {
+    height: 173px; }
+
+#footer_wrap {
+  background: #15191e;
+  width: 100%; }
+  #footer_wrap footer {
+    height: 220px; }

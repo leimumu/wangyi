@@ -15,16 +15,19 @@ gulp.task("script",function(){
 	gulp.src("js/*.js").pipe(gulp.dest("dist/js")).pipe(connect.reload());
 })
 gulp.task("image",function(){
-	gulp.src("img/**").pipe(gulp.dest("dist/img")).pipe(connect.reload());
+	gulp.src("img/*.{jpg,jpeg}").pipe(gulp.dest("dist/img")).pipe(connect.reload());
 })
 gulp.task("server",function(){
 	connect.server({
 		root:"dist",
 		livereload:true
 		});
+		gulp.watch("*.html",["html"]);
+		gulp.watch("sass/*.scss",["sass"]);
+		gulp.watch("js/*.js",["script"]);
+		gulp.watch("img/*.{jpg,jpeg}",["image"])
 })
-gulp.task("watch",function(){
-	gulp.watch("*.html",["html"]);
-	gulp.watch("sass/*.scss",["sass"]);
-})
-gulp.task("default",["server","watch"]);
+/*gulp.task("watch",function(){
+	
+})*/
+gulp.task("default",["server"]);

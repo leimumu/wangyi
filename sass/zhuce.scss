@@ -1,0 +1,59 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, 
+input, textarea, p, blockquote, th, td ,header,section,footer{
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img,dl,dt{display:block;}
+a{text-decoration:none; color:#666;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";}
+input,a{outline:none;border:0;}
+
+body{
+    background: #eee;
+}
+header,section,footer{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#hearder_wrap,#section_wrap,#footer_wrap{
+    width: 100%;
+    background: #EEE;
+}
+header{
+    line-height: 60px;
+    .her_left{
+        float: left;
+        a{}
+        div{
+            float: left;
+            width: 300px;
+            height: 60px;
+            background-position: -50px -18px;
+            margin-top: 35px;
+            background: url("../img/sprite.png") no-repeat;
+        }
+    }
+    .her_right{
+        float: right;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+}
+
+section{
+    
+}
+
+footer{
+    padding: 30px 0;
+    p{
+        padding-bottom: 10px;
+        text-align: center;
+        color: #b1b1b1;
+        a{padding: 0 6px;}
+    }
+}

@@ -11,7 +11,40 @@ h1,h2,h3,h4,h5,h6{font-weight:100;}
 body{ font-family:"微软雅黑";}
 input,a{outline:none;border:0;}
 
-header,nav,#main,menu,section,footer{
+.bg{
+    width: 100px;
+    height: 168px;
+    background-image: url(http://imgplat.store.qq.com/bqq_qfpic/0/201704257b79b87b55a129bd3220083e4de082d9/0);
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 123;
+    right: 8px;
+    top: 300px;
+    .launchBtn{
+        position: absolute;
+        bottom: 69px;
+        left: 5px;
+        width: 92px;
+        height: 22px;
+        margin: 0 auto;
+        cursor: pointer;
+        background: url(../img/QQ.png) center no-repeat;
+         // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAAWCAMAAAB68gtgAAAAGXRFW…Ffc30l+bLywUxK69GzAb1rSB1CdP93L1pytG9Duv8XYACYZVDdZpPw6wAAAABJRU5ErkJggg==);
+    }
+    .gotoTop{
+        height: 66px;
+        width: 100px;
+        cursor: pointer;
+        display: none;
+        background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/gotoTop2.png) 0 0 no-repeat;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+
+header,nav,#main,menu,section,#links,#help,footer{
     width: 1200px;
     margin: 0 auto;
 }
@@ -200,6 +233,8 @@ header,nav,#main,menu,section,footer{
                 height: 50px;
                 width: 100px;
                 text-align: right;
+                background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png);
+                background-position: -26px -81px;
             }
         }
     }
@@ -209,9 +244,10 @@ header,nav,#main,menu,section,footer{
     background: #15191e;
     width: 100%;
     #main{
-        
-   
+        height: 301px;
+        //position: relative;
     aside{
+        float: left;
         background: #e6e6e6;
         width: 300px;
         height: 301px;
@@ -265,10 +301,12 @@ header,nav,#main,menu,section,footer{
         }
     }
     #banner{
-        height: 301px;
+        float: right;
         border-top: 1px solid #000;
-        background: #ccc;
-//      position: relative;
+        background: #ccc url(../img/12Hi1Ng1ib.jpeg);
+        height: 100%;
+        width: 900px;
+        //position: relative;
 //      overflow: hidden;
     }
  }
@@ -277,8 +315,151 @@ header,nav,#main,menu,section,footer{
     background: #15191e;
     width: 100%;
     menu{
-        height: 358px;
+        height: 360px;
         background: #b8b8b8;
+        .game_type{
+            width: 266px;
+            padding-left: 34px;
+            float: left;
+            .game_type_title{
+                font-size: 12px;
+                color: #000;
+                height: 40px;
+                line-height: 40px;
+            }
+            .bg_game_type{
+                height: 46px;
+                width: 231px;
+                float: left;
+                vertical-align: top;
+                margin-bottom: 2px;
+                background-image: url(http://blz.nos.netease.com/1/bmall/images/new-edition/game_type4.jpg);
+                background-repeat: no-repeat;
+                a{
+                    display: block;
+                    width: 231px;
+                    height: 46px;
+                }
+            }
+        }
+        .menu_right{
+            width: 900px;
+            height: 100%;
+            float: right;
+            overflow: hidden;
+            background: #000000;
+            color: #fff;
+             .box_smallEye{
+                 height: 98px;
+                margin: 1px 0;
+                width: 900px;
+                li{
+                    background: #353a40;
+                    margin-right: 1px;
+                    float: left;
+                    padding: 12px;
+                    width: 200px;
+                    height: 74px;
+                    a{
+                        width: 200px;
+                        height: 74px;
+                        img{
+                            width: 200px;
+                            height: 74px;
+                            border: 0;
+                        }
+                    }
+                }
+             }
+             .box_tab{
+                 height: 260px;
+                width: 100%;
+                .tab_name{
+                    height: 36px;
+                    font-size: 14px;
+                    line-height: 36px;
+                    li{
+                        height: 36px;
+                        width: 33.21%;
+                        text-align: center;
+                        cursor: pointer;
+                        background: #20252a;
+                        span{
+                            display: inline-block;
+                            height: 16px;
+                            width: 16px;
+                            margin-right: 8px;
+                            vertical-align: middle;
+                            background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png);
+                            background-position: -50px -150px;
+                        }
+                    }
+                }
+                .tab_detail{
+                    overflow: hidden;
+                    height: 224px;
+                    position: relative;
+                    ul{
+                        width: 900px;
+                        height: 224px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: #353a40;
+                        li{
+                            padding: 12px 0px 0px 55px;
+                            float: left;
+                            a{
+                                display: block;
+                                position: relative;
+                                img{
+                                    width: 155px;
+                                    height: 155px;
+                                    margin-bottom: 0px;
+                                }
+                                div{
+                                    height: 40px;
+                                    width: 40px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+                                span{
+                                    cursor: pointer;
+                                    font-size: 12px;
+                                    color: #888;
+                                    height: 32px;
+                                    overflow: hidden;
+                                    line-height: 16px;
+                                    display: block;
+                                    width: 160px;
+                                }
+                                .goods_cost{
+                                    height: 26px;
+                                    i{
+                                        padding: 0;
+                                        color: #000;
+                                        line-height: 19px;
+                                        font-style: normal;
+                                        padding-left: 4px;
+                                        display: inline-block;
+                                        width: 50px;
+                                        background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png) 0 -530px;
+                                    }
+                                    del{
+                                        padding-left: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+             }
+             .main_goods{
+                 margin-top: 6px;
+                overflow: hidden;
+             }
+        }
     }
 }
 
@@ -287,6 +468,165 @@ header,nav,#main,menu,section,footer{
     width: 100%;
     section{
         background: #E6E6E6;
+        height: auto;
+        overflow: hidden;
+        aside{
+            float: left;
+            width: 300px;
+            margin-top: 6px;
+            .hot_list{
+                width: 299px;
+                //border-right: 1px solid #000;
+                .case_title{
+                    background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                    font-size: 14px;
+                    line-height: 35px;
+                    height: 35px;
+                    color: #000;
+                    padding-left: 30px;
+                }
+                ul{
+                    width: 276px;
+                    background: #e6e6e6;
+                    padding: 25px 0 16px 24px;
+                    //border-right: 1px solid #000;
+                    li{
+                        height: 110px;
+                        padding-bottom: 26px;
+                        position: relative;
+                        a{
+                            color: #444;
+                            display: block;
+                            img{
+                                height: 110px;
+                                width: 110px;
+                                float: left;
+                            }
+                            .game_list{
+                                height: 40px;
+                                width: 40px;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .list1{background-position: 0px -450px;}
+                            .list1{background-position: -50px -450px;}
+                            .list1{background-position: -100px -450px;}
+                            .hot_name{
+                                cursor: pointer;
+                                font-size: 12px;
+                                line-height: 20px;
+                                float: left;
+                                padding-left: 8px;
+                                width: 140px;
+                                .goods_cost{
+                                    color: #000;
+                                    height: 26px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .activity_list{
+                width: 300px;
+                .case_title{
+                    background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                    font-size: 14px;
+                    line-height: 35px;
+                    height: 35px;
+                    color: #000;
+                    padding-left: 30px;
+                }
+                .big_activity{
+                    background: #e6e6e6;
+                    padding: 14px 0 17px 0;
+                    li{
+                        width: 240px;
+                        height: 200px;
+                        padding: 12px 30px;
+                        a{
+                            display: block;
+                            img{width: 240px;height: 200px;}
+                        }
+                    }
+                }
+                .small_activity{
+                    background: #e6e6e6;
+                    padding-top: 28px;
+                    padding-bottom: 13px;
+                    border-top: 1px solid #15191e;
+                    li{
+                        width: 240px;
+                        height: 100px;
+                        padding: 0 30px 18px 30px;
+                        a{
+                            display: block;
+                            img{width: 240px;height: 100px;}
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            float: right;
+            width: 900px;
+            margin-top: 6px;
+            overflow: hidden;
+            #floor_1,#floor_2{border-left: 1px solid #000;}
+          #floor_1,#floor_2,#floor_3,#floor_4{
+            height: 514px;
+            .case_title{
+                background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                font-size: 14px;
+                line-height: 35px;
+                height: 35px;
+                color: #000;
+                padding-left: 30px;
+                width: 870px;
+                a{
+                    color: #333333;
+                    float: right;
+                    margin-right: 20px;
+                }
+            }
+            .goods_list{
+                background: #e6e6e6;
+                padding-top: 22px;
+                width: 900px;
+                padding-bottom: 7px;
+                li{
+                    padding: 0px 0px 6px 52px;
+                    float: left;
+                    a{display: block;
+                        img{
+                            width: 155px;
+                            height: 155px;
+                            vertical-align: bottom;
+                        }
+                        span{
+                            font-size: 12px;
+                            cursor: pointer;
+                            color: #888;
+                            line-height: 16px;
+                            overflow: hidden;
+                            display: block;
+                            width: 160px;
+                        }
+                        .goods_name{
+                            height: 32px;
+                            padding-top: 6px;
+                            margin-top: 0px;
+                        }
+                        .goods_cost{
+                            color: #000;
+                            height: 26px;
+                        }
+                    }
+                }
+            }
+           }
+        }
     }
 }
 
@@ -295,6 +635,26 @@ header,nav,#main,menu,section,footer{
     width: 100%;
     #links{
         height: 85px;
+        padding-top: 80px;
+        background: #15191e;
+        ul{
+            margin: 0 auto;
+            background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/brand.jpg) 0 0 no-repeat;
+            height: 86px;
+            overflow: hidden;
+            li{float: left;}
+            .pinpai{
+                display: block;
+                font-weight: bold;
+                width: 90px;
+                height: 56px;
+                padding-top: 10px;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: center;
+                color: #000;
+            }
+        }
     }
 }
 
@@ -302,7 +662,26 @@ header,nav,#main,menu,section,footer{
     background: #000000;
     width: 100%;
     #help{
-        height: 173px;
+        height: 123px;
+        margin: 0 auto;
+        width: 1000px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        div{
+            float: left;
+            width: 160px;
+            padding-left: 40px;
+            h3{
+                font-size: 14px;
+                line-height: 40px;
+                color: #fff;
+            }
+            ul{
+                font-size: 12px;
+                line-height: 22px;
+                color: #999;
+            }
+        }
     }
 }
 
@@ -311,5 +690,56 @@ header,nav,#main,menu,section,footer{
     width: 100%;
     footer{
         height: 220px;
+        .fetureList{
+            height: 60px;
+            margin: 0 auto;
+            width: 1000px;
+            color: #fff;
+            li{
+                font-size: 14px;
+                line-height: 60px;
+                float: left;
+                width: 200px;
+                text-align: center;
+                span{
+                    height: 28px;
+                    width: 32px;
+                    display: inline-block;
+                    margin-top: 6px;
+                    vertical-align: middle;
+                    background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png);
+                }
+                .goodsIcon{background-position: 0px -350px;}
+                .serveIcon{background-position: -50px -350px;}
+                .payIcon{background-position: -100px -350px;}
+                .sendIcon{background-position: -150px -350px;margin-right: 10px;}
+            }
+            .pay{width: 400px;}
+        }
+        .copyCon{
+            text-align: left;
+            width: 600px;
+            margin: 0 auto;
+            color: #fff;
+            .logoList{float: left;
+                li{float: left;margin-right: 10px;}
+            }
+            div{
+                float: left;
+                padding-left: 10px;
+                font-size: 12px;
+                ul{
+                    padding-left: 20px;
+                    color: #aaa;
+                    li{
+                        white-space: nowrap;
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 12px;
+                        a{color: #aaa;}
+                    }
+                }
+            }
+        }
     }
 }

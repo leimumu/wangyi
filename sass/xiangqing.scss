@@ -1,0 +1,385 @@
+#section_wrap{
+    background: #15191e;
+    width: 100%;
+    section{
+        
+        height: auto;
+        background: #15191e;
+        .s-top{
+            width: 100%;
+            height: 535px;
+            padding-bottom: 20px;
+            .t-left{
+                width: 870px;
+                float: left;
+                .nav-top{
+                    line-height: 33px;
+                    margin: 1px auto;
+                    padding-left: 35px;
+                    color: #000 !important;
+                    height: 33px;
+                    width: 835px;
+                    background: #b8b8b8;
+                    font-size: 14px;
+                    a{color: #474646;}
+                    span{color: #474646;padding: 0 5px;}
+                }
+                .main-end{
+                    height: 500px;
+                    background: #e6e6e6;
+                    width: 870px;
+                    h2{
+                        line-height: 50px;
+                        height: 50px;
+                        overflow: hidden;
+                        font-size: 18px;
+                        width: 870px;
+                        color: #000;
+                        text-align: center;
+                    }
+                    .m-pic{
+                        width: 400px;
+                        margin-left: 30px;
+                        float: left;
+                        overflow: hidden;
+                        height: 420px;
+                        .pic-big{
+                            width: 400px;
+                            height: 300px;
+                            img{width: 400px;height: 300px;border: none;}
+                        }
+                        .pic-small{
+                            width: 418px;
+                            padding-top: 20px;
+                            li{
+                                float: left;
+                                width: 120px;
+                                height: 90px;
+                                margin-right: 17px;
+                                border: 1px solid #E6E6E6;
+                                a{
+                                    //display: block;
+                                    //width: 120px;
+                                    //height: 90px;
+                                    img{
+                                        //display: block;
+                                        width: 120px;
+                                        height: 90px;
+                                        }
+                                }
+                            }
+                        }
+                    }
+                    .m-pay{
+                        width: 440px;
+                        height: 400px;
+                        float: left;
+                        position: relative;
+                        .pay-top{
+                            padding-left: 30px;
+                            .cuxiao{
+                                font-size: 12px;
+                                line-height: 18px;
+                                color: #0184b7;
+                                span{
+                                    display: inline-block;
+                                    line-height: 18px;
+                                    color: #000;
+                                    padding-left: 8px;
+                                    width: 52px;
+                                    height: 18px;
+                                    background: url("http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png") no-repeat 0 -530px;
+                                }
+                                b{
+                                    color: #d02513;
+                                    padding: 0 5px;
+                                    font-style: normal;
+                                }
+                            }
+                            .jiage{
+                                color: #000;
+                                font-size: 19px;
+                                line-height: 40px;
+                                font-style: bold;
+                            }
+                            .pingjia{
+                                color: #000;
+                                line-height: 36px;
+                                span{
+                                    float: left;
+                                    display: block;
+                                    padding-right: 10px;
+                                    text-align: right;
+                                    width: 60px;
+                                }
+                                .star{
+                                    height: 22px;
+                                    display: inline-block;
+                                    a{
+                                        height: 20px;
+                                        width: 23px;
+                                        display: inline-block;
+                                        background-position: 0 -50px;
+                                    }
+                                }
+                            }
+                            .xiaoliang{
+                                color: #000;
+                                line-height: 28px;
+                                span{
+                                    color: #474646;
+                                    font-size: 12px;
+                                }
+                                b{
+                                   color: #0184b7;
+                                    padding: 0 2px; 
+                                }
+                            }
+                            .zhuangtai{
+                                color: #474646;
+                                line-height: 28px;
+                                span{color: #474646;font-size: 12px;}
+                            }
+                        }
+                        .pay-main{
+                            width: 304px;
+                            padding: 8px;
+                            background: #f3f3f3;
+                            border: 1px solid #aaa;
+                            margin-left: 16px;
+                            
+                            .p-size{
+                                color: #474646;
+                                span{
+                                    color: #474646;
+                                    line-height: 26px;
+                                    font-size: 12px;
+                                    float: left;
+                                    display: inline-block;
+                                    width: 60px;
+                                    text-align: right;
+                                    padding-right: 10px;
+                                }
+                                .property{
+                                    display: block;
+                                    float: left;
+                                    width: 230px;
+                                    a{
+                                        height: 24px;
+                                        display: inline-block;
+                                        font-size: 12px;
+                                        padding: 0 7px;
+                                        line-height: 24px;
+                                        background: #fff;
+                                        margin-right: 5px;
+                                        position: relative;
+                                        cursor: pointer;
+                                        border: 1px solid #aaa;
+                                        color: #333;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                            .p-num{
+                                color: #474646;
+                                line-height: 36px;
+                                span{
+                                    color: #474646;
+                                    font-size: 12px;
+                                    display: inline-block;
+                                    width: 60px;
+                                    text-align: right;
+                                    padding-right: 10px;
+                                }
+                                a{
+                                    vertical-align: middle;
+                                    display: inline-block;
+                                    height: 17px;
+                                    width: 17px;
+                                }
+                                input{
+                                    vertical-align: middle;
+                                    height: 16px;
+                                    width: 16px;
+                                    border: 1px #b8b8b8 solid;
+                                    text-align: center;
+                                    margin: 0px 4px;
+                                    padding: 0;
+                                }
+                            }
+                            .buynow{
+                                height: 40px;
+                                width: 150px;
+                                display: block;
+                                background-position: 0px 0px;
+                                float: left;
+                                background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/btn_product_do.jpg);
+                                background-repeat: no-repeat;
+                            }
+                            .buycart{
+                                background-position: 0px -40px;
+                                float: right;
+                                height: 40px;
+                                width: 150px;
+                                display: block;
+                                background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/btn_product_do.jpg);
+                                background-repeat: no-repeat;
+                                padding: 0;
+                            }
+                        }
+                        .pay-end{
+                            font-size: 12px;
+                            width: 330px;
+                            margin-left: 18px;
+                            margin-top: 16px;
+                            line-height: 17px;
+                            color: #474646;
+                            a{
+                                padding: 0 5px;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            aside{
+                float: right;
+                width: 329px;
+                border-left: 1px solid #000;
+                .case_title{
+                    background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                    font-size: 14px;
+                    line-height: 35px;
+                    height: 35px;
+                    color: #000;
+                    padding-left: 30px;
+                }
+                ul{
+                    width: 305px;
+                    background: #e6e6e6;
+                    padding: 30px 0 17px 24px;
+                    li{
+                        height: 125px;
+                        padding-bottom: 26px;
+                        position: relative;
+                        a{
+                            color: #444;
+                            display: block;
+                            img{
+                                height: 110px;
+                                width: 110px;
+                                float: left;
+                            }
+                            .game_list{
+                                height: 40px;
+                                width: 40px;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+//                          .list1{background-position: 0px -450px;}
+//                          .list2{background-position: -50px -450px;}
+//                          .list3{background-position: -100px -450px;}
+                            .hot_name{
+                                cursor: pointer;
+                                font-size: 12px;
+                                line-height: 20px;
+                                float: left;
+                                padding-left: 8px;
+                                width: 140px;
+                                .goods_cost{
+                                    color: #000;
+                                    height: 26px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        ////////////////////////////////////////////////////////////////
+        .s-main{
+            
+        }
+        ////////////////////////////////////////////////////////////////
+        
+        .s-end{
+            width: 1000px;
+            margin: 0 auto 50px auto;
+            display: block;
+            h3{
+                height: 50px;
+                width: 1000px;
+                line-height: 50px;
+                font-size: 18px;
+                background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_buyHelp2.jpg) repeat-x;
+                span{
+                    display: inline-block;
+                    background-image: url(/images/bx/icon.png);
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                    width: 22px;
+                    height: 21px;
+                    background-position: -76px -264px;
+                    vertical-align: middle;
+                    margin: 0 15px;
+                }
+            }
+            .shopnote{
+                background: #fff;
+                li{
+                    width: 1000px;
+                    span{
+                        display: block;
+                        float: left;
+                        height: 40px;
+                        width: 40px;
+                        margin: 40px 60px;
+                        background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon_y.png);
+                        background-repeat: no-repeat;
+                        background-position: 0px -90px;
+                    }
+                    strong{
+                        line-height: 120px;
+                        font-size: 18px;
+                        color: #666;
+                        display: block;
+                        float: left;
+                        margin-right: 120px;
+                    }
+                    .sn-list{
+                        float: left;
+                        display: block;
+                        width: 600px;
+                        padding-top: 40px;
+                        li{
+                            float: left;
+                            margin: 0 10px;
+                            display: inline;
+                            background: url(/images/bx/tip.gif) no-repeat 0 0;
+                            width: 77px;
+                            height: 36px;
+                            background-position: 0 0;
+                        }
+                    }
+                    .sn-div{
+                        width: 600px;
+                        line-height: 26px;
+                        color: #000;
+                        display: block;
+                        float: left;
+                        font-size: 14px;
+                        vertical-align: middle;
+                        b{
+                            color: #ea6100;
+                            font-style: normal;
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

@@ -197,7 +197,6 @@
 				        <!--商品展示-->
 				        <div class="pad10 bg_white"><p style="text-align: center;"><iframe src="http://player.youku.com/embed/XMzMzMzA5MTg1Mg==" frameborder="0" width="750" height="422"></iframe></p>
 				<p style="text-align: center;"><img src="http://c.cotton.netease.com/buckets/1BquJi/files/06H06IABdC.jpeg" alt=""><img src="http://c.cotton.netease.com/buckets/1BquJi/files/06H06IGlJD.jpeg" alt=""><img src="http://c.cotton.netease.com/buckets/1BquJi/files/06GZZxkctg.jpeg" alt=""><img src="http://c.cotton.netease.com/buckets/1BquJi/files/06GZZxlwjM.jpeg" alt=""><img src="http://c.cotton.netease.com/buckets/1BquJi/files/06GZZxmSLW.jpeg" alt=""></p>
-				<p style="text-align: center;">中文版</p></div>
 				            <!--晒单记录 开始-->
 				        <div class="buyer_show dn">
 				            <div class="information" id="order_share">
@@ -325,10 +324,12 @@
 				        <!--晒单记录 结束-->
 				        <!--疑难提问-->
 				        <div class="p_buyHelp dn">
+				        	<div class="question">
 				            <div id="buyHelpMsg" class="buyHelp_hint">温馨提示，您在购买商品过程中有任何问题，欢迎提问，我们客服会给予您解答与帮助。</div>
 				            <div class="btn_buyHelp">
 				                对这件商品有疑问？<br>
 				                <input type="button" id="show_post_consult" value="我要提问" class="btn_buy help_question">
+				            </div>
 				            </div>
 				            <!--我要提问 开始-->
 				            <div id="compose_consult" class="myShopCommentLayer" style="display:none">
@@ -415,45 +416,50 @@
 				</div>
 				
 				<div class="s-end">
-				    <h3><span class="icon tipIcon"></span>购物提示</h3>
-				    <ul class="shopnote">
-				        <li class="sn-list"><span class="sn-font"></span><strong>支付方式</strong>     
-				            <ul class="payTools">
-				                <li class="wyb"></li>
-				                <li class="zfb"></li>
-				                <li class="yl"></li>
-				                <li class="visa"></li>
-				            </ul>
-				        </li>
-				        <li class="sn-list"><span class="sn-font"></span><strong>发货时间</strong>    
-				            <div class="sn-div" style="line-height:120px;">16点之前支付的订单<b>当天发出</b>,16点之后支付的订单<b>第二天发出</b></div>
-				        </li>
-				        <li class="sn-list"><span class="sn-font"></span><strong>物流配送</strong>            
-				            <div class="sn-div" style="padding-top:14px;">配送费用：<b>按照实际重量进行收费，</b>商城会不定期举行免运费活动哟！<br>
-				            配送范围：<b>韵达可到达部分城市，EMS全国可配送</b>（港澳台除外）均可配送！<br>
-				            配送方式：可选择韵达快递和EMS.（如韵达快递不达到，将改派为EMS）<b>韵达快递配送时间约1-4天,EMS配送时间约3-5天</b>
-				            </div>
-				        </li>
-				        <li class="sn-list"><span class="sn-font"></span><strong>售后服务</strong>
-				            <div class="sn-div" style="padding-top:30px; *height:120px;">正品保证<br>享<b>7天退货，15天换货</b>的优质售后服务，免除您的后顾之忧！
-				            </div>
-				        </li>
-				    </ul>
-				    <h3><span class="icon doubtIcon"></span>购物流程</h3>
-				    <ul class="shopnote">
-				        <li class="sn-list2">
-				            <span class="sn-font"></span><strong>查找商品<br><b>如何查找商品？</b></strong>
-				            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_1.jpg" alt="购买流程">
-				        </li>
-				        <li class="sn-list2">
-				            <span class="sn-font"></span><strong>放入购物车<br><b>在购物车中，你可以</b></strong>
-				            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_2.jpg" alt="购买流程">
-				        </li>
-				        <li class="sn-list2">
-				            <span class="sn-font"></span><strong>提交订单<br><b>填写订单信息并支付</b></strong>
-				            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_3.jpg" alt="购买流程">
-				        </li>
-				    </ul>                   
+					<div class="shop1">
+						<h3><span class="icon tipIcon"></span>购物提示</h3>
+					    <ul class="shopnote">
+					        <li class="sn-list"><span class="sn-font"></span><strong>支付方式</strong>     
+					            <ul class="payTools">
+					                <li class="wyb"></li>
+					                <li class="zfb"></li>
+					                <li class="yl"></li>
+					                <li class="visa"></li>
+					            </ul>
+					        </li>
+					        <li class="sn-list"><span class="sn-font"></span><strong>发货时间</strong>    
+					            <div class="sn-div" style="line-height:120px;">16点之前支付的订单<b>当天发出</b>,16点之后支付的订单<b>第二天发出</b></div>
+					        </li>
+					        <li class="sn-list"><span class="sn-font"></span><strong>物流配送</strong>            
+					            <div class="sn-div" style="padding-top:14px;">配送费用：<b>按照实际重量进行收费，</b>商城会不定期举行免运费活动哟！<br>
+					            配送范围：<b>韵达可到达部分城市，EMS全国可配送</b>（港澳台除外）均可配送！<br>
+					            配送方式：可选择韵达快递和EMS.（如韵达快递不达到，将改派为EMS）<b>韵达快递配送时间约1-4天,EMS配送时间约3-5天</b>
+					            </div>
+					        </li>
+					        <li class="sn-list"><span class="sn-font"></span><strong>售后服务</strong>
+					            <div class="sn-div" style="padding-top:30px; *height:120px;">正品保证<br>享<b>7天退货，15天换货</b>的优质售后服务，免除您的后顾之忧！
+					            </div>
+					        </li>
+					    </ul>
+					</div>
+				    
+				    <div class="shop2">
+					    <h3><span class="icon doubtIcon"></span>购物流程</h3>
+					    <ul class="shopnote">
+					        <li class="sn-list list2">
+					            <span class="sn-font"></span><strong>查找商品<!--<br><b>如何查找商品？</b>--></strong>
+					            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_1.jpg" alt="购买流程">
+					        </li>
+					        <li class="sn-list list2">
+					            <span class="sn-font"></span><strong>放入购物车<!--<br><b>在购物车中，你可以</b>--></strong>
+					            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_2.jpg" alt="购买流程">
+					        </li>
+					        <li class="sn-list list2">
+					            <span class="sn-font"></span><strong>提交订单<!--<br><b>填写订单信息并支付</b>--></strong>
+					            <img src="http://nos.netease.com/blz/1/bmall/images/new-edition/buyhelp_3.jpg" alt="购买流程">
+					        </li>
+					    </ul>  
+					</div>
 				</div>
 			</section>
 		</div>

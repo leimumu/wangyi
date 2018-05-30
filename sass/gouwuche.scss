@@ -1,0 +1,172 @@
+#section_wrap{
+    background: #15191e;
+    width: 100%;
+    section{
+//      width: 1000px;
+//      padding: 0 100px;
+//      height: 295px;
+//      background: #e6e6e6;
+        .progress {
+            width: 1000px;
+            height: 72px;
+            padding: 27px 100px 19px;
+            border-top: 1px solid #000;
+            margin: 0 auto;
+            background: #e6e6e6;
+            ul {
+                width: 756px;
+                margin: 0 auto;
+                height: 100%;
+                background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat 0 0;
+                li {
+                    float: left;
+                    width: 189px;
+                    font-size: 14px;
+                    color: #474646;
+                    text-align: center;
+                    span {
+                        display: block;
+                        padding-top: 60px;
+                    }
+                    .active {
+                        color: #000;
+                        background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/buyer/step.jpg) no-repeat -756px 0;
+                    }
+                }
+            }
+        }
+        #cart {
+            width: 1000px;
+            padding: 0 100px;
+            height: 172px;
+            margin: 0 auto;
+            background: #b8b8b8;
+            table {
+                width: 100%;
+                color: #464646;
+                background-color: #fff;
+                tbody {
+                    display: table-row-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                    tr {
+                        display: table-row;
+                        vertical-align: inherit;
+                        border-color: inherit;
+                        th {
+                        font-size: 14px;
+                        height: 34px;
+                        line-height: 34px;
+                        text-align: center;
+                        background: #b8b8b8;
+                        color: #474646;
+                        border: none; 
+                        #cart .reAll {vertical-align: middle;}
+                        }
+                    }
+                }
+            }
+            .goPay {
+                border: none;
+                background: #b8b8b8;
+                color: #474646;
+                border-top: none;
+                text-align: right;
+                padding: 20px 20px 10px 0;
+                p {
+                    margin-bottom: 5px;
+                    .re {
+                        float: left;
+                        margin-left: 50px;
+                        a{margin-right: 30px;}
+                    }
+                    strong {
+                        font-weight: normal;
+                        padding-right: 40px;
+                        .font_red2 {color: #D02513;}
+                    }
+                    .font_red2 {
+                        color: #D02513;
+                    }
+                    .goAgain {
+                        width: 108px;
+                        height: 26px;
+                        vertical-align: bottom;
+                        line-height: 26px;
+                        color: #fff;
+                        font-size: 14px;
+                        text-align: center;
+                        display: inline-block;
+                        background: url(http://blz.nos.netease.com/1/bmall/images/new-edition/buyer/btn.jpg) no-repeat 0 -118px;
+                    }
+                    .goBtn {
+                        width: 107px;
+                        height: 40px;
+                        line-height: 40px;
+                        padding-left: 42px;
+                        margin: 0 0 0 10px;
+                        background: url(http://blz.nos.netease.com/1/bmall/images/new-edition/buyer/btn.jpg) no-repeat 0 -154px;
+                        display: inline-block;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+#tuijian_wrap{
+    background: #15191e;
+    width: 100%;
+    #tuijian{
+        height:288px ;
+        width: 1200px;
+        //padding: 0 100px;
+        margin: 0 auto;
+        background: #e6e6e6;
+        .case_title {
+            background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+            font-size: 14px;
+            line-height: 35px;
+            height: 35px;
+            color: #000;
+            padding-left: 30px;
+            a {
+                color: #333333;
+                float: right;
+                margin-right: 20px;
+            }
+        }
+        ul {
+            width: 1000px;
+            //height: 212px;
+            padding: 20px 60px;
+            li {
+                width: 200px;
+                height: 212px;
+                float: left;
+                a {
+                    width: 160px;
+                    display: block;
+                    padding: 0px 40px;
+                    img {
+                        width: 180px;
+                        height: 160px;
+                        vertical-align: top;
+                    }
+                    span {
+                        font-size: 12px;
+                        line-height: 18px;
+                        display: block;
+                        width: 160px;
+                    }
+                    .p_cost {
+                        color: #000;
+                    }
+                    .p_name {
+                        color: #666;
+                    }
+                }
+            }
+        }
+    }
+}

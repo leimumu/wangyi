@@ -248,68 +248,278 @@
                 #section_wrap section .s-top aside ul li a .hot_name .goods_cost {
                   color: #000;
                   height: 26px; }
-    #section_wrap section .s-end {
+    #section_wrap section .s-main {
+      padding: 0 100px;
       width: 1000px;
+      height: auto;
+      background: #fff;
+      margin: 0 auto; }
+      #section_wrap section .s-main .p_label {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px; }
+        #section_wrap section .s-main .p_label li {
+          height: 40px;
+          width: 310px;
+          float: left;
+          background: #b8b8b8;
+          color: #666;
+          margin-right: 1px;
+          cursor: pointer;
+          text-align: center; }
+          #section_wrap section .s-main .p_label li a {
+            display: block; }
+        #section_wrap section .s-main .p_label .pl_active {
+          background: #fff;
+          color: #000 !important; }
+      #section_wrap section .s-main .p_cont_show {
+        width: 1000px; }
+        #section_wrap section .s-main .p_cont_show .bg_white {
+          padding: 0 110px; }
+          #section_wrap section .s-main .p_cont_show .bg_white p {
+            text-align: center; }
+            #section_wrap section .s-main .p_cont_show .bg_white p:nth-child(1) iframe {
+              border-top-width: 0px;
+              border-right-width: 0px;
+              border-bottom-width: 0px;
+              border-left-width: 0px;
+              width: 750px;
+              height: 422px; }
+            #section_wrap section .s-main .p_cont_show .bg_white p:nth-child(2) img {
+              margin-left: 15px; }
+        #section_wrap section .s-main .p_cont_show .buyer_show {
+          display: none; }
+          #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB {
+            padding: 10px 0; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_iShow_font {
+              height: 40px;
+              width: 150px;
+              float: left;
+              padding: 16px 0 0 70px;
+              line-height: 20px;
+              text-align: center; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_iShow_font span {
+                font-size: 14px;
+                color: #666; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_iShow_font p {
+                font-size: 12px;
+                color: #ee7207; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_rating_box {
+              height: 22px;
+              float: left;
+              margin-left: 10px;
+              width: 300px;
+              margin-top: 12px; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_rating_box .b_star_rating {
+                height: 22px;
+                display: inline-block; }
+                #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_rating_box .b_star_rating a {
+                  height: 20px;
+                  width: 23px;
+                  display: inline-block;
+                  background-position: 0 -50px; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_iShow_title {
+              float: right;
+              font-size: 12px;
+              color: #666;
+              line-height: 20px;
+              padding: 10px 120px 30px 0;
+              text-align: center; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .padIB .p_iShow_title .p_iShow {
+                height: 30px;
+                width: 120px;
+                background-position: 0px -85px;
+                font-size: 14px;
+                line-height: 30px;
+                color: #fff;
+                cursor: pointer;
+                background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/btn_product_do.jpg);
+                background-repeat: no-repeat; }
+          #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise ul li {
+            border-top: 1px solid #999; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise ul li .p_title {
+              height: 40px;
+              background: #dbdbdb;
+              line-height: 40px;
+              padding-left: 75px;
+              color: #555; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise ul li .p_user_cont {
+              line-height: 18px;
+              padding: 20px 75px 10px 75px; }
+          #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .p_pagebar {
+            height: 20px;
+            background: #b8b8b8;
+            padding: 10px 30px;
+            text-align: right; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .p_pagebar a {
+              height: 20px;
+              display: inline-block;
+              line-height: 20px;
+              margin: 0 4px;
+              text-align: center; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .p_pagebar a:nth-child(1) {
+                margin-right: 10px;
+                cursor: pointer;
+                padding: 0 5px; }
+              #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .p_pagebar a:nth-child(2) {
+                margin-left: 10px;
+                cursor: pointer;
+                padding: 0 5px; }
+            #section_wrap section .s-main .p_cont_show .buyer_show .information .buyAppraise .p_pagebar span {
+              color: red;
+              width: 20px;
+              display: inline-block;
+              line-height: 20px;
+              text-align: center;
+              background: #fff;
+              border-radius: 2px; }
+        #section_wrap section .s-main .p_cont_show .p_buyHelp {
+          display: none; }
+          #section_wrap section .s-main .p_cont_show .p_buyHelp .question {
+            height: 90px; }
+            #section_wrap section .s-main .p_cont_show .p_buyHelp .question .buyHelpMsg {
+              float: left;
+              display: inline-block;
+              vertical-align: top;
+              height: 90px;
+              line-height: 90px;
+              color: #ee7207;
+              font-size: 14px;
+              padding-left: 60px; }
+            #section_wrap section .s-main .p_cont_show .p_buyHelp .question .btn_buyHelp {
+              float: right;
+              display: inline-block;
+              margin-left: 150px;
+              height: 90px;
+              width: 120px;
+              line-height: 20px;
+              color: #666;
+              font-size: 12px;
+              text-align: center; }
+              #section_wrap section .s-main .p_cont_show .p_buyHelp .question .btn_buyHelp .help_question {
+                height: 30px;
+                width: 120px;
+                line-height: 30px;
+                font-size: 14px;
+                color: #fff;
+                background-position: 0px -85px;
+                cursor: pointer;
+                background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/btn_product_do.jpg);
+                background-repeat: no-repeat; }
+          #section_wrap section .s-main .p_cont_show .p_buyHelp ul li {
+            color: #464646;
+            border-top: 1px solid #999; }
+            #section_wrap section .s-main .p_cont_show .p_buyHelp ul li .p_title {
+              height: 40px;
+              background: #dbdbdb;
+              line-height: 40px;
+              padding-left: 75px; }
+            #section_wrap section .s-main .p_cont_show .p_buyHelp ul li .buyHelpContent2 {
+              padding: 10px 75px;
+              line-height: 20px; }
+            #section_wrap section .s-main .p_cont_show .p_buyHelp ul li .buyHelp_admin {
+              padding: 30px 30px 20px 30px;
+              margin: 0px auto 30px auto;
+              width: 840px;
+              line-height: 24px;
+              background: #cce6f1 url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_help_admin.jpg) top center no-repeat; }
+    #section_wrap section .s-end {
+      width: 1200px;
       margin: 0 auto 50px auto;
       display: block; }
-      #section_wrap section .s-end h3 {
-        height: 50px;
-        width: 1000px;
-        line-height: 50px;
-        font-size: 18px;
-        background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_buyHelp2.jpg) repeat-x; }
-        #section_wrap section .s-end h3 span {
-          display: inline-block;
-          background-image: url(/images/bx/icon.png);
-          background-repeat: no-repeat;
-          overflow: hidden;
-          width: 22px;
-          height: 21px;
-          background-position: -76px -264px;
-          vertical-align: middle;
-          margin: 0 15px; }
-      #section_wrap section .s-end .shopnote {
-        background: #fff; }
-        #section_wrap section .s-end .shopnote li {
-          width: 1000px; }
-          #section_wrap section .s-end .shopnote li span {
-            display: block;
-            float: left;
-            height: 40px;
-            width: 40px;
-            margin: 40px 60px;
-            background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon_y.png);
+      #section_wrap section .s-end .shop1, #section_wrap section .s-end .shop2 {
+        border-top: 1px solid #000;
+        height: 531px; }
+        #section_wrap section .s-end .shop1 h3, #section_wrap section .s-end .shop2 h3 {
+          height: 50px;
+          width: 1200px;
+          line-height: 50px;
+          font-size: 18px;
+          background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_buyHelp2.jpg) repeat-x; }
+          #section_wrap section .s-end .shop1 h3 span, #section_wrap section .s-end .shop2 h3 span {
+            display: inline-block;
+            background-image: url(/images/bx/icon.png);
             background-repeat: no-repeat;
-            background-position: 0px -90px; }
-          #section_wrap section .s-end .shopnote li strong {
-            line-height: 120px;
-            font-size: 18px;
-            color: #666;
-            display: block;
-            float: left;
-            margin-right: 120px; }
-          #section_wrap section .s-end .shopnote li .sn-list {
-            float: left;
-            display: block;
-            width: 600px;
-            padding-top: 40px; }
-            #section_wrap section .s-end .shopnote li .sn-list li {
+            overflow: hidden;
+            width: 22px;
+            height: 21px;
+            background-position: -76px -264px;
+            vertical-align: middle;
+            margin: 0 15px; }
+        #section_wrap section .s-end .shop1 .shopnote, #section_wrap section .s-end .shop2 .shopnote {
+          background: #fff;
+          height: 480px;
+          padding: 0 90px; }
+          #section_wrap section .s-end .shop1 .shopnote .sn-list, #section_wrap section .s-end .shop2 .shopnote .sn-list {
+            width: 1000px;
+            height: 120px;
+            margin: 0 auto; }
+            #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools {
+              float: right;
+              display: block;
+              width: 600px;
+              padding-top: 40px; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .wyb, #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .zfb, #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .yl, #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .visa, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .wyb, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .zfb, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .yl, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .visa {
+                float: left;
+                margin: 0 10px;
+                display: inline;
+                background: url(/images/bx/tip.gif) no-repeat 0 0; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .wyb, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .wyb {
+                width: 77px;
+                height: 36px;
+                background-position: 0 0; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .zfb, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .zfb {
+                width: 72px;
+                height: 24px;
+                background-position: 0 -36px; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .yl, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .yl {
+                width: 58px;
+                height: 36px;
+                background-position: 0 -63px; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list:nth-child(1) .payTools .visa, #section_wrap section .s-end .shop2 .shopnote .sn-list:nth-child(1) .payTools .visa {
+                width: 60px;
+                height: 18px;
+                background-position: 0 -101px; }
+            #section_wrap section .s-end .shop1 .shopnote .sn-list .sn-font, #section_wrap section .s-end .shop2 .shopnote .sn-list .sn-font {
+              display: block;
               float: left;
-              margin: 0 10px;
-              display: inline;
-              background: url(/images/bx/tip.gif) no-repeat 0 0;
-              width: 77px;
-              height: 36px;
-              background-position: 0 0; }
-          #section_wrap section .s-end .shopnote li .sn-div {
-            width: 600px;
-            line-height: 26px;
-            color: #000;
-            display: block;
-            float: left;
-            font-size: 14px;
-            vertical-align: middle; }
-            #section_wrap section .s-end .shopnote li .sn-div b {
-              color: #ea6100;
-              font-style: normal;
-              font-size: 14px; }
+              height: 40px;
+              width: 40px;
+              margin: 40px 60px;
+              background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon_y.png);
+              background-repeat: no-repeat;
+              background-position: 0px -90px; }
+            #section_wrap section .s-end .shop1 .shopnote .sn-list strong, #section_wrap section .s-end .shop2 .shopnote .sn-list strong {
+              line-height: 120px;
+              font-size: 18px;
+              color: #666;
+              display: block;
+              float: left;
+              margin-right: 120px; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list strong b, #section_wrap section .s-end .shop2 .shopnote .sn-list strong b {
+                color: #ea6100;
+                font-style: normal;
+                font-size: 14px; }
+            #section_wrap section .s-end .shop1 .shopnote .sn-list .sn-div, #section_wrap section .s-end .shop2 .shopnote .sn-list .sn-div {
+              width: 600px;
+              line-height: 26px;
+              color: #000;
+              display: block;
+              float: right;
+              font-size: 14px;
+              vertical-align: middle; }
+              #section_wrap section .s-end .shop1 .shopnote .sn-list .sn-div b, #section_wrap section .s-end .shop2 .shopnote .sn-list .sn-div b {
+                color: #ea6100;
+                font-style: normal;
+                font-size: 14px; }
+            #section_wrap section .s-end .shop1 .shopnote .sn-list img, #section_wrap section .s-end .shop2 .shopnote .sn-list img {
+              float: right;
+              display: block;
+              width: 628px;
+              height: 120px;
+              vertical-align: middle; }
+        #section_wrap section .s-end .shop1:nth-child(2), #section_wrap section .s-end .shop2:nth-child(2) {
+          height: 360px; }
+
+.p_label li:hover a {
+  color: #fff; }

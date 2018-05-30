@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>网易暴雪周边商城</title>
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css"/>
 	</head>
 	<body>
 		<div class="bg"><div class="launchBtn"></div><div class="gotoTop"></div></div>
@@ -75,7 +76,92 @@
 		</div>
 		
 		
-		
+		<div id="section_wrap">
+			<section>
+				<div class="progress">
+					<ul class="clearFix">
+						<li class="step1"><span class="active">我的购物车</span></li>
+						<li class="step2"><span>填写核对订单</span></li>
+						<li class="step3"><span>付款</span></li>
+						<li class="step4"><span>评价晒单</span></li>
+					</ul>
+				</div>
+				<div id="cart">
+					<table id="cart_tb" cellpadding="0" cellspacing="0">
+						<tbody><tr><th width="60"><input class="reAll" type="checkbox" name="chbox" checked="checked"> 全选</th><th width="445">商品信息</th><th>单价(元)</th><th width="130">数量</th><th width="90">优惠</th><th width="110">小计</th><th>删除</th></tr>
+					</tbody></table>
+					
+					<div class="goPay font_14">
+						<p>
+							<span class="re"><a href="javascript:;" class="reCheck" style="color:#099AD1;">删除选择的商品</a> <a href="javascript:;" class="reBuy" style="color:#099AD1;">清空购物车</a></span>  
+							<strong>已选<em id="total_cart_num" class="font_red2">0</em>件商品</strong>已优惠：<span>￥</span><span id="discount_money" style="padding-right:15px">0.00</span>
+						</p>
+						<p>总计(不含运费)：<span class="font_red2" style="font-size:24px">￥</span><span id="total_money" class="font_red2 font_24">0.00</span></p>
+						<p><a id="shopping" class="goAgain" href="/">&lt;&lt;再逛逛</a><a id="fill_bill" class="goBtn" href="javascript:void(0)">去结算&gt;&gt;</a></p>
+					</div>
+					<form id="fill_bill_form" method="POST" action="/script/buyer/fill_bill?">
+						<input type="hidden" id="buy_products" name="cart" value="">
+					</form>
+					<form id="shopping_form" method="POST" action="/index.html">
+					</form>
+					<div id="can_not_buy_div" class="clearFloat" style="display:none;">
+						<p class="font_orange14" style="background-color:#313131;padding:10px 0;">以下商品已下架，暂时无法购买：</p>
+						<div class="blank10"></div>				
+						<table id="can_not_buy_list" class="tb01" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th width="445">商品名称</th>
+									<th>单价</th>
+									<th>状态</th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>		
+					</div>				
+				</div>
+			</section>
+		</div>
+		<div id="tuijian_wrap">
+			<div id="tuijian">
+				<div class="case_title"><a href="http://bmall.163.com" target="_blank">更多&gt;&gt;</a>Bmall为您推荐:</div>
+				<ul class="clearFix">
+			        <li>
+			            <a title="预售 炉石传说 520特别版 立体卡牌手机壳" target="_blank" href="/script/buyer/product_dtl/product_id___1970/">
+			            <img alt="预售 炉石传说 520特别版 立体卡牌手机壳" src="http://c.cotton.netease.com/buckets/1BquJi/files/03HlGZmakF.jpeg">
+			            <span class="p_name">预售 炉石传说 520特别版 立体卡牌手机壳</span>
+			            <span class="p_cost">商城价：￥138</span></a>
+			        </li>
+			    
+			        <li>
+			            <a title="暗黑破坏神III 便携防水背包" target="_blank" href="/script/buyer/product_dtl/product_id___1556/">
+			            <img alt="暗黑破坏神III 便携防水背包" src="http://c.cotton.netease.com/buckets/1BquJi/files/03HmwvKT7r.jpeg">
+			            <span class="p_name">暗黑破坏神III 便携防水背包</span>
+			            <span class="p_cost">商城价：￥39</span></a>
+			        </li>
+			    
+			        <li>
+			            <a title="暗黑破坏神III 拉链卫衣" target="_blank" href="/script/buyer/product_dtl/product_id___920/">
+			            <img alt="暗黑破坏神III 拉链卫衣" src="http://c.cotton.netease.com/buckets/1BquJi/files/03F8cVac0P.jpeg">
+			            <span class="p_name">暗黑破坏神III 拉链卫衣</span>
+			            <span class="p_cost">商城价：￥399</span></a>
+			        </li>
+			    
+			        <li>
+			            <a title="守望先锋 洋葱小鱿 钥匙挂件" target="_blank" href="/script/buyer/product_dtl/product_id___1769/">
+			            <img alt="守望先锋 洋葱小鱿 钥匙挂件" src="http://c.cotton.netease.com/buckets/1BquJi/files/03HbFmMIsx.jpeg">
+			            <span class="p_name">守望先锋 洋葱小鱿 钥匙挂件</span>
+			            <span class="p_cost">商城价：￥59</span></a>
+			        </li>
+			    
+			        <li>
+			            <a title="2016年 第十届暴雪嘉年华 七合一纪念限量礼盒" target="_blank" href="/script/buyer/product_dtl/product_id___1303/">
+			            <img alt="2016年 第十届暴雪嘉年华 七合一纪念限量礼盒" src="http://c.cotton.netease.com/buckets/1BquJi/files/03FIdZEzWx.jpeg">
+			            <span class="p_name">2016年 第十届暴雪嘉年华 七合一纪念限量礼盒</span>
+			            <span class="p_cost">商城价：￥299</span></a>
+			        </li>
+			    </ul>
+			</div>
+		</div>
 		
 		<div id="links_wrap">
 			<div id="links">

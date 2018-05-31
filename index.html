@@ -5,8 +5,11 @@
 		<title>网易暴雪周边商城</title>
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<!--		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+		
 	</head>
 	<body>
+
 		<div class="bg"><div class="launchBtn"></div><div class="gotoTop"></div></div>
 		
 		<div id="hearder_wrap">
@@ -20,7 +23,11 @@
 							<span id="my_name">你好，欢迎来到网易暴雪周边商城</span>
 						</li>
 						<li>
-							<span>|</span><a href="denglu.html">登录</a>
+							<span>|</span>
+							<button type="button" id="btn" data-toggle="modal" data-target=".g-bd">
+								<span class="i-dl" aria-hidden="true"></span>
+								登录
+							</button>
 						</li>
 						<li>
 							<span>|</span><a href="zhuce.html" target="_blank">注册</a>
@@ -32,6 +39,10 @@
 							<span>|</span><a href="" style="padding-right: 0;">我的商城</a>
 						</li>
 					</ul>
+					
+					
+					
+					
 					<div class="search">
 						<input type="text" size="30" value="魔兽" id="input_search" maxlength="30" />
 						<!--<div class="btn_search" id="search_submit">搜&nbsp;&nbsp;索</div> -->
@@ -51,6 +62,40 @@
 				</div>
 			</header>
 		</div>
+
+		
+		
+		<!-----------------登录弹窗-------------------->
+					<div class="g-bd dltk" id="cnt-box">
+						<div class="m-header" id="auto-id-1527507400936">
+							<div class="u-closebtn u-closebtn1" data-action="doclose" id="dldown"></div>
+							<div class="headimg j-headimg" id="auto-id-1527507400941"></div>
+						</div>
+						<div class="m-cnt">
+								<div class="form-group dlemail">
+									<div class="u-logo"></div>
+									<input type="text" class="form-control" id="wq-content" placeholder="邮箱" />
+								</div>
+								<div class="form-group dlpassword">
+									<div class="s-logo"></div>
+									<input type="password" class="form-control" id="wq-idea" placeholder="密码" />
+								</div>
+								<div class="dlguanjia">
+									使用<a target="_blank" href="https://id.163.com/gj/?from=webzj_cw" id="auto-id-1527732807163">网易帐号管家</a>，全面保护您的账号！
+								</div>
+								<div class="form-group dl">
+									<a href="index.html"><button type="button" class="form-control" data-dismiss="modal" id="wq-save-question">登录</button></a>
+								</div>
+								<div class="form-group zc">
+									<a href="">忘记密码？</a>
+									<a href="zhuce.html">去注册</a>
+								</div>
+						</div>
+					</div>
+		
+		
+		
+		
 		<div id="nav_wrap">
 			<nav>
 				<ul class="nav_ul">
@@ -61,7 +106,7 @@
 						<a href="/">首页</a>
 					</li>
 					<li class="ul_third" id="nav_saleoff">
-						<a href="">超值专区</a>
+						<a href="liebiao.html">超值专区</a>
 					</li>
 					<!-- <li class="nav_link" stop="1"><a href="javascript:;" class="iconx mark_building">音乐专区</a></li> 
 					<li class="nav_link"><a class="iconx mark_music" href="/murlocsday/">&nbsp;&nbsp;&nbsp;音乐专区</a></li>-->
@@ -80,192 +125,186 @@
 			
 			<aside>    
                 
-                <dl>
-                    <dt><span class="aside1"></span><a href="">居家用品</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside1"></span><a href="">居家用品</a>
+                    
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">洗护</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">洗护</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">抱枕</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">抱枕</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">床品</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">床品</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">收纳</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">收纳</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">拖鞋</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">拖鞋</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">水杯</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">水杯</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">家饰</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">家饰</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">箱包</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">箱包</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">餐厨</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">餐厨</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">雨伞</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">雨伞</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside2"></span><a href="">手办玩具</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside2"></span><a href="">手办玩具</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">积木棋牌</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">积木棋牌</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">毛绒玩具</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">毛绒玩具</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">手办公仔</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">手办公仔</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">大型雕像</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">大型雕像</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">模型收藏</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">模型收藏</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside3"></span><a href="">数码外设</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside3"></span><a href="">数码外设</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">电脑外设</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">电脑外设</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">鼠标垫</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">鼠标垫</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">U盘存储</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">U盘存储</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">手机壳</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">手机壳</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">充电宝</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">充电宝</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside4"></span><a href="">配饰挂件</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside4"></span><a href="">配饰挂件</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">吊坠吊带</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">吊坠吊带</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">手环护腕</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">手环护腕</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">钱包卡套</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">钱包卡套</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">车贴</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">车贴</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">徽章挂件</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">徽章挂件</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">钥匙链</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">钥匙链</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">手套</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">手套</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside5"></span><a href="">图书文具</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside5"></span><a href="">图书文具</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">小说图书</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">小说图书</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">画册收藏</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">画册收藏</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">办公好物</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">办公好物</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">书写用品</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">书写用品</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside6"></span><a href="">服装服饰</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside6"></span><a href="">服装服饰</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">时尚T恤</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">时尚T恤</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">外套卫衣</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">外套卫衣</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">长短裤装</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">长短裤装</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">精品鞋帽</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">精品鞋帽</a></li>
                             
-                            <li class="header_aside_line"></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>
-                </dl>
+                    </li>
+                </ul>
                 
                 
-                <dl>
-                    <dt><span class="aside7"></span><a href="">游戏支持</a></dt>
-                    <dd>
+                <ul class="nav_type">
+                    <li class="nt_list"><span class="aside7"></span><a href="">游戏支持</a>
                         <ul>
                             
-                            <li class=""></li>                            
-                            <li><a href="">游戏光盘</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">游戏光盘</a></li>
                             
-                            <li class=""></li>                            
-                            <li><a href="">将军令</a></li>
+                            <li class="aside_type"></li>                            
+                            <li><a href="liebiao.html">将军令</a></li>
                             
-                            <li class=""></li>
+                            <li class="aside_type"></li>
                         </ul>
-                    </dd>                
-                </dl>
+                    </li>                
+                </ul>
                 
             </aside>
 			<div id="banner">
@@ -277,26 +316,26 @@
 			<menu>
 				<ul class="game_type">
 					<li class="game_type_title">游戏类型</li>
-					<li class="bg_game_type wow"><a href="/script/buyer/product_list/list_type___1/game_type_id___5/" target="_blank"></a></li>
-					<li class="bg_game_type hs"><a href="/script/buyer/product_list/list_type___1/game_type_id___8/" target="_blank"></a></li>
-					<li class="bg_game_type sc2"><a href="/script/buyer/product_list/list_type___1/game_type_id___6/" target="_blank"></a></li>
-					<li class="bg_game_type d3"><a href="/script/buyer/product_list/list_type___1/game_type_id___7/" target="_blank"></a></li>
-					<li class="bg_game_type hos"><a href="/script/buyer/product_list/list_type___1/game_type_id___10/" target="_blank"></a></li>
-					<li class="bg_game_type ow"><a href="/script/buyer/product_list/list_type___1/game_type_id___11/" target="_blank"></a></li>
+					<li class="bg_game_type wow"><a href="liebiao.html" target="_blank"></a></li>
+					<li class="bg_game_type hs"><a href="liebiao.html" target="_blank"></a></li>
+					<li class="bg_game_type sc2"><a href="liebiao.html" target="_blank"></a></li>
+					<li class="bg_game_type d3"><a href="liebiao.html" target="_blank"></a></li>
+					<li class="bg_game_type hos"><a href="liebiao.html" target="_blank"></a></li>
+					<li class="bg_game_type ow"><a href="liebiao.html" target="_blank"></a></li>
 				</ul>
 				
 				<div class="menu_right">
 					<ul class="box_smallEye">
-		                <li><a href="http://bmall.163.com/script/buyer/product_list/list_type___2/?product_keywords=%CF%C4%BC%BE%B1%D8%C8%EB">
+		                <li><a href="liebiao.html">
 		                	<img src="http://c.cotton.netease.com/buckets/1BquJi/files/12HlSTetzj.jpeg" alt="夏季必入">
 		                </a></li>
-		                <li><a href="http://bmall.163.com/">
+		                <li><a href="/">
 		                	<img src="http://c.cotton.netease.com/buckets/1BquJi/files/12H93BIy5S.jpeg" alt="包邮广告">
 		                </a></li>
 		                <li><a href="https://weibo.com/p/1006063185086701/home?from=page_100606&amp;mod=TAB#place">
 		                	<img src="http://c.cotton.netease.com/buckets/1BquJi/files/12H9FH00di.jpeg" alt="微博">
 		                </a></li>
-		                <li><a href="http://bmall.163.com/script/buyer/product_list/list_type___2/?product_keywords=%BC%CE%C4%EA%BB%AA">
+		                <li><a href="liebiao.html">
 		                	<img src="http://c.cotton.netease.com/buckets/1BquJi/files/12GWbc0zKc.jpeg" alt="嘉年华">
 		                </a></li>
 					</ul>
@@ -927,5 +966,11 @@
 				
 			</footer>
 		</div>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+	<!--<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>-->
+	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 </html>

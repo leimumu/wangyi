@@ -81,7 +81,6 @@ header, nav, #main, menu, section, #links, #help, footer {
       position: relative; }
       #hearder_wrap header .her_right .up_nav {
         height: 34px;
-        z-index: 9995;
         position: relative;
         line-height: 34px;
         color: #b8b8b8;
@@ -89,9 +88,12 @@ header, nav, #main, menu, section, #links, #help, footer {
         #hearder_wrap header .her_right .up_nav li {
           font-size: 12px;
           float: left; }
-          #hearder_wrap header .her_right .up_nav li a {
+          #hearder_wrap header .her_right .up_nav li a, #hearder_wrap header .her_right .up_nav li button {
             padding: 0 10px;
             color: #B8B8B8; }
+          #hearder_wrap header .her_right .up_nav li button {
+            background: none;
+            border: 0; }
       #hearder_wrap header .her_right .search {
         font-size: 12px;
         position: absolute;
@@ -125,7 +127,6 @@ header, nav, #main, menu, section, #links, #help, footer {
           line-height: 30px;
           height: 30px;
           float: left;
-          width: 72px;
           padding-left: 33px;
           vertical-align: middle; }
         #hearder_wrap header .her_right .shopping_cart .cart {
@@ -141,7 +142,7 @@ header, nav, #main, menu, section, #links, #help, footer {
             font-size: 12px;
             height: 30px;
             display: block;
-            margin-left: 58px; }
+            margin-left: 65px; }
           #hearder_wrap header .her_right .shopping_cart .cart .small_cart {
             width: 344px;
             background: #b8b8b8;
@@ -181,6 +182,8 @@ header, nav, #main, menu, section, #links, #help, footer {
           height: 20px;
           background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png);
           background-position: -49px -300px; }
+    #hearder_wrap header .cart:hover .small_cart {
+      display: block; }
 
 #nav_wrap {
   background: #029CD3;
@@ -325,3 +328,85 @@ header, nav, #main, menu, section, #links, #help, footer {
             font-size: 12px; }
             #footer_wrap footer .copyCon div ul li a {
               color: #aaa; }
+
+.g-bd {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  width: 420px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #fff;
+  z-index: 9999; }
+  .g-bd .m-header {
+    position: relative;
+    padding: 30px 0; }
+    .g-bd .m-header .u-closebtn {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      background: url(//ursdoccdn.nosdn.127.net/webzj_cdnbase/sprite_61fbe151ab715649c6b7c4ec39156201.png) -9999px -9999px no-repeat;
+      background-position: -99px -85px; }
+    .g-bd .m-header .headimg {
+      width: 150px;
+      height: 25px;
+      margin: 0 auto;
+      background: url(//ursdoccdn.nosdn.127.net/webzj_cdnbase/sprite_61fbe151ab715649c6b7c4ec39156201.png) -9999px -9999px no-repeat;
+      background-position: -16px -28px; }
+  .g-bd .m-cnt {
+    padding: 0 50px; }
+    .g-bd .m-cnt .form-control {
+      height: 44px !important;
+      width: 100%;
+      border: 1px solid #999;
+      margin: 15px 0;
+      text-indent: 10px;
+      border-radius: 3px; }
+    .g-bd .m-cnt .u-logo, .g-bd .m-cnt .s-logo {
+      float: left;
+      width: 21px;
+      text-align: center;
+      padding: 0 5px 0 10px;
+      background: url(//ursdoccdn.nosdn.127.net/webzj_cdnbase/sprite_61fbe151ab715649c6b7c4ec39156201.png) -9999px -9999px no-repeat;
+      background-position: -251px -86px; }
+    .g-bd .m-cnt .dlguanjia {
+      width: 298px;
+      margin-top: -3px;
+      color: #000;
+      font-size: 12px;
+      line-height: 20px;
+      vertical-align: top;
+      word-break: break-all; }
+      .g-bd .m-cnt .dlguanjia a {
+        color: #4aafe9;
+        text-decoration: none; }
+    .g-bd .m-cnt .dl {
+      margin-top: 16px;
+      margin-bottom: 12px;
+      text-indent: 0; }
+      .g-bd .m-cnt .dl button {
+        background: #ca5252;
+        color: #fff; }
+      .g-bd .m-cnt .dl button:hover {
+        background: #fa5b5b;
+        color: #E6E6E6; }
+    .g-bd .m-cnt .zc {
+      height: 44px;
+      width: 100%;
+      margin-top: 15px; }
+      .g-bd .m-cnt .zc a {
+        float: left;
+        height: 12px;
+        text-decoration: none;
+        cursor: pointer;
+        color: #999;
+        font-size: 12px;
+        line-height: 16px; }
+        .g-bd .m-cnt .zc a:nth-child(2) {
+          float: right; }
+      .g-bd .m-cnt .zc a:hover {
+        color: #666; }

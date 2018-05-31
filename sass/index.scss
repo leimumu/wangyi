@@ -9,15 +9,10 @@
         background: #e6e6e6;
         width: 300px;
         height: 301px;
-//      border-bottom: 1px #000 solid;
-//      border-top: 1px solid #000;
-        z-index: 9995;
-//      position: absolute;
-//      top: 50px;
-//      left: 0;
-        dl{
+
+        .nav_type{
             position: relative;
-            dt{
+            .nt_list{
                 padding: 0px 0px 3px 35px;
                 height: 40px;
                 width: 265px;
@@ -28,6 +23,9 @@
                     float: left;
                     display: block;
                     margin: 10px 5px 10px 0;
+                    background-image: url(http://nos.netease.com/blz/1/bmall/images/new-edition/icon.png);
+                    background-repeat: no-repeat;
+                    background-position: 0px 2px;
                 }
                 a{
                     font-size: 14px;
@@ -37,20 +35,39 @@
                     height: auto;
                     width: auto;
                     line-height: 40px;
+                    display: block;
                 }
-            }
-            dd{
-                display: none;
-                left: 300px;
-                position: absolute;
-                top: 0;
-                z-index: 999;
-                background: #fff;
-                clear: both;
+                
                 ul{
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    left: 300px;
+                    z-index: 999;
+                    height: 40px;
+                    background: #fff;
                     width: 300px;
-                    padding: 2px 10px 13px 16px;
+                    padding: 2px 10px 13px 16px;clear: both;
                     li{
+                        height: auto;
+                        width: auto;
+                        text-align: left;
+                        float: left;
+                        a{
+                            color: #515050;
+                            font-size: 12px;
+                            display: block;
+                            width: auto;
+                            height: 18px;
+                            line-height: 18px;
+                            float: left;
+                            padding: 0 7px;
+                            white-space: nowrap;
+                            :hover{color: #eee;}
+                        }
+                    }
+                    .aside_type{
+                        width: 1px;
                         background: #b8b8b8;
                         height: 18px;
                     }
@@ -58,6 +75,7 @@
             }
         }
     }
+    .nt_list:hover ul{display: block;}
     #banner{
         float: right;
         border-top: 1px solid #000;

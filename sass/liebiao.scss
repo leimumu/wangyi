@@ -1,0 +1,166 @@
+#section_wrap{
+    background: #15191e;
+    width: 100%;
+    section{
+        background: #E6E6E6;
+        height: auto;
+        overflow: hidden;
+        aside{
+            float: left;
+            width: 300px;
+            margin-top: 6px;
+            .hot_list{
+                width: 299px;
+                //border-right: 1px solid #000;
+                .case_title{
+                    background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                    font-size: 14px;
+                    line-height: 35px;
+                    height: 35px;
+                    color: #000;
+                    padding-left: 30px;
+                }
+                ul{
+                    width: 276px;
+                    background: #e6e6e6;
+                    padding: 25px 0 16px 24px;
+                    //border-right: 1px solid #000;
+                    li{
+                        height: 110px;
+                        padding-bottom: 26px;
+                        position: relative;
+                        a{
+                            color: #444;
+                            display: block;
+                            img{
+                                height: 110px;
+                                width: 110px;
+                                float: left;
+                            }
+                            .game_list{
+                                height: 40px;
+                                width: 40px;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
+                            .list1{background-position: 0px -450px;}
+                            .list2{background-position: -50px -450px;}
+                            .list3{background-position: -100px -450px;}
+                            .hot_name{
+                                cursor: pointer;
+                                font-size: 12px;
+                                line-height: 20px;
+                                float: left;
+                                padding-left: 8px;
+                                width: 140px;
+                                .goods_cost{
+                                    color: #000;
+                                    height: 26px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .activity_list{
+                width: 300px;
+                .case_title{
+                    background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                    font-size: 14px;
+                    line-height: 35px;
+                    height: 35px;
+                    color: #000;
+                    padding-left: 30px;
+                }
+                .big_activity{
+                    background: #e6e6e6;
+                    padding: 14px 0 17px 0;
+                    li{
+                        width: 240px;
+                        height: 200px;
+                        padding: 12px 30px;
+                        a{
+                            display: block;
+                            img{width: 240px;height: 200px;}
+                        }
+                    }
+                }
+                .small_activity{
+                    background: #e6e6e6;
+                    padding-top: 28px;
+                    padding-bottom: 13px;
+                    border-top: 1px solid #15191e;
+                    li{
+                        width: 240px;
+                        height: 100px;
+                        padding: 0 30px 18px 30px;
+                        a{
+                            display: block;
+                            img{width: 240px;height: 100px;}
+                        }
+                    }
+                }
+            }
+        }
+        .content{
+            float: right;
+            width: 900px;
+            margin-top: 6px;
+            overflow: hidden;
+            #floor_1,#floor_2{border-left: 1px solid #000;}
+          #floor_1,#floor_2,#floor_3,#floor_4{
+            height: 514px;
+            .case_title{
+                background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+                font-size: 14px;
+                line-height: 35px;
+                height: 35px;
+                color: #000;
+                padding-left: 30px;
+                width: 870px;
+                a{
+                    color: #333333;
+                    float: right;
+                    margin-right: 20px;
+                }
+            }
+            .goods_list{
+                background: #e6e6e6;
+                padding-top: 22px;
+                width: 900px;
+                padding-bottom: 7px;
+                li{
+                    padding: 0px 0px 6px 52px;
+                    float: left;
+                    a{display: block;
+                        img{
+                            width: 155px;
+                            height: 155px;
+                            vertical-align: bottom;
+                        }
+                        span{
+                            font-size: 12px;
+                            cursor: pointer;
+                            color: #888;
+                            line-height: 16px;
+                            overflow: hidden;
+                            display: block;
+                            width: 160px;
+                        }
+                        .goods_name{
+                            height: 32px;
+                            padding-top: 6px;
+                            margin-top: 0px;
+                        }
+                        .goods_cost{
+                            color: #000;
+                            height: 26px;
+                        }
+                    }
+                }
+            }
+           }
+        }
+    }
+}

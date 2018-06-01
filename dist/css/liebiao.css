@@ -1,0 +1,142 @@
+#section_wrap {
+  background: #15191e;
+  width: 100%; }
+  #section_wrap section {
+    background: #E6E6E6;
+    height: auto;
+    overflow: hidden; }
+    #section_wrap section aside {
+      float: left;
+      width: 300px;
+      margin-top: 6px; }
+      #section_wrap section aside .hot_list {
+        width: 299px; }
+        #section_wrap section aside .hot_list .case_title {
+          background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+          font-size: 14px;
+          line-height: 35px;
+          height: 35px;
+          color: #000;
+          padding-left: 30px; }
+        #section_wrap section aside .hot_list ul {
+          width: 276px;
+          background: #e6e6e6;
+          padding: 25px 0 16px 24px; }
+          #section_wrap section aside .hot_list ul li {
+            height: 110px;
+            padding-bottom: 26px;
+            position: relative; }
+            #section_wrap section aside .hot_list ul li a {
+              color: #444;
+              display: block; }
+              #section_wrap section aside .hot_list ul li a img {
+                height: 110px;
+                width: 110px;
+                float: left; }
+              #section_wrap section aside .hot_list ul li a .game_list {
+                height: 40px;
+                width: 40px;
+                position: absolute;
+                top: 0;
+                left: 0; }
+              #section_wrap section aside .hot_list ul li a .list1 {
+                background-position: 0px -450px; }
+              #section_wrap section aside .hot_list ul li a .list2 {
+                background-position: -50px -450px; }
+              #section_wrap section aside .hot_list ul li a .list3 {
+                background-position: -100px -450px; }
+              #section_wrap section aside .hot_list ul li a .hot_name {
+                cursor: pointer;
+                font-size: 12px;
+                line-height: 20px;
+                float: left;
+                padding-left: 8px;
+                width: 140px; }
+                #section_wrap section aside .hot_list ul li a .hot_name .goods_cost {
+                  color: #000;
+                  height: 26px; }
+      #section_wrap section aside .activity_list {
+        width: 300px; }
+        #section_wrap section aside .activity_list .case_title {
+          background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+          font-size: 14px;
+          line-height: 35px;
+          height: 35px;
+          color: #000;
+          padding-left: 30px; }
+        #section_wrap section aside .activity_list .big_activity {
+          background: #e6e6e6;
+          padding: 14px 0 17px 0; }
+          #section_wrap section aside .activity_list .big_activity li {
+            width: 240px;
+            height: 200px;
+            padding: 12px 30px; }
+            #section_wrap section aside .activity_list .big_activity li a {
+              display: block; }
+              #section_wrap section aside .activity_list .big_activity li a img {
+                width: 240px;
+                height: 200px; }
+        #section_wrap section aside .activity_list .small_activity {
+          background: #e6e6e6;
+          padding-top: 28px;
+          padding-bottom: 13px;
+          border-top: 1px solid #15191e; }
+          #section_wrap section aside .activity_list .small_activity li {
+            width: 240px;
+            height: 100px;
+            padding: 0 30px 18px 30px; }
+            #section_wrap section aside .activity_list .small_activity li a {
+              display: block; }
+              #section_wrap section aside .activity_list .small_activity li a img {
+                width: 240px;
+                height: 100px; }
+    #section_wrap section .content {
+      float: right;
+      width: 900px;
+      margin-top: 6px;
+      overflow: hidden; }
+      #section_wrap section .content #floor_1, #section_wrap section .content #floor_2 {
+        border-left: 1px solid #000; }
+      #section_wrap section .content #floor_1, #section_wrap section .content #floor_2, #section_wrap section .content #floor_3, #section_wrap section .content #floor_4 {
+        height: 514px; }
+        #section_wrap section .content #floor_1 .case_title, #section_wrap section .content #floor_2 .case_title, #section_wrap section .content #floor_3 .case_title, #section_wrap section .content #floor_4 .case_title {
+          background: url(http://nos.netease.com/blz/1/bmall/images/new-edition/bg_case.jpg) 0 repeat-x;
+          font-size: 14px;
+          line-height: 35px;
+          height: 35px;
+          color: #000;
+          padding-left: 30px;
+          width: 870px; }
+          #section_wrap section .content #floor_1 .case_title a, #section_wrap section .content #floor_2 .case_title a, #section_wrap section .content #floor_3 .case_title a, #section_wrap section .content #floor_4 .case_title a {
+            color: #333333;
+            float: right;
+            margin-right: 20px; }
+        #section_wrap section .content #floor_1 .goods_list, #section_wrap section .content #floor_2 .goods_list, #section_wrap section .content #floor_3 .goods_list, #section_wrap section .content #floor_4 .goods_list {
+          background: #e6e6e6;
+          padding-top: 22px;
+          width: 900px;
+          padding-bottom: 7px; }
+          #section_wrap section .content #floor_1 .goods_list li, #section_wrap section .content #floor_2 .goods_list li, #section_wrap section .content #floor_3 .goods_list li, #section_wrap section .content #floor_4 .goods_list li {
+            padding: 0px 0px 6px 52px;
+            float: left; }
+            #section_wrap section .content #floor_1 .goods_list li a, #section_wrap section .content #floor_2 .goods_list li a, #section_wrap section .content #floor_3 .goods_list li a, #section_wrap section .content #floor_4 .goods_list li a {
+              display: block; }
+              #section_wrap section .content #floor_1 .goods_list li a img, #section_wrap section .content #floor_2 .goods_list li a img, #section_wrap section .content #floor_3 .goods_list li a img, #section_wrap section .content #floor_4 .goods_list li a img {
+                width: 155px;
+                height: 155px;
+                vertical-align: bottom; }
+              #section_wrap section .content #floor_1 .goods_list li a span, #section_wrap section .content #floor_2 .goods_list li a span, #section_wrap section .content #floor_3 .goods_list li a span, #section_wrap section .content #floor_4 .goods_list li a span {
+                font-size: 12px;
+                cursor: pointer;
+                color: #888;
+                line-height: 16px;
+                overflow: hidden;
+                display: block;
+                width: 160px; }
+              #section_wrap section .content #floor_1 .goods_list li a .goods_name, #section_wrap section .content #floor_2 .goods_list li a .goods_name, #section_wrap section .content #floor_3 .goods_list li a .goods_name, #section_wrap section .content #floor_4 .goods_list li a .goods_name {
+                height: 32px;
+                padding-top: 6px;
+                margin-top: 0px; }
+              #section_wrap section .content #floor_1 .goods_list li a .goods_cost, #section_wrap section .content #floor_2 .goods_list li a .goods_cost, #section_wrap section .content #floor_3 .goods_list li a .goods_cost, #section_wrap section .content #floor_4 .goods_list li a .goods_cost {
+                color: #000;
+                height: 26px; }
